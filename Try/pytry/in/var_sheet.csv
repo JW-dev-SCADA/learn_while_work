@@ -1,0 +1,1298 @@
+Newglobe	REAL	VAR_GLOBAL				0	0	0	0	0	0
+DNP3_EVA_Counter_100	INT	VAR_GLOBAL				0	0	0	0	0	0
+DNP3_EVA_Counter_200	INT	VAR_GLOBAL				0	0	0	0	0	0
+DNP3_EVA_Counter_400	INT	VAR_GLOBAL				0	0	0	0	0	0
+DNP3_EVA_Counter_300	INT	VAR_GLOBAL				0	0	0	0	0	0
+DNP3_EVA_Counter	INT	VAR_GLOBAL				0	0	0	0	0	0
+DNP3_EVA_SIN_RESULT	REAL	VAR_GLOBAL				0	0	0	0	0	0
+sinx	REAL	VAR_GLOBAL			0	0	0	0	0	0	0
+DNP3_EVA_SIN_REV	REAL	VAR_GLOBAL				0	0	0	0	0	0
+PLC_SYS_TICK_CNT	DINT	VAR_GLOBAL				0	0	0	0	0	0
+PLC_TASK_DEFINED	INT	VAR_GLOBAL				0	0	0	0	0	0
+PLCMODE_ON	BOOL	VAR_GLOBAL	TRUE : current PLC mode is ON			0	0	0	0	0	0
+PLCMODE_LOADING	BOOL	VAR_GLOBAL	TRUE : current PLC mode is LOADING			0	0	0	0	0	0
+PLCMODE_STOP	BOOL	VAR_GLOBAL	TRUE : current PLC mode is STOP			0	0	0	0	0	0
+PLCMODE_RUN	BOOL	VAR_GLOBAL	TRUE : current PLC mode is RUN			0	0	0	0	0	0
+PLCMODE_HALT	BOOL	VAR_GLOBAL	TRUE : current PLC mode is HALT			0	0	0	0	0	0
+PLC_TICKS_PER_SEC	DINT	VAR_GLOBAL				0	0	0	0	0	0
+PLC_MAX_ERRORS	DINT	VAR_GLOBAL				0	0	0	0	0	0
+PLC_ERRORS	DINT	VAR_GLOBAL				0	0	0	0	0	0
+PLC_TASK_AVAILABLE	INT	VAR_GLOBAL				0	0	0	0	0	0
+PLC_SYSTASK_AVAILABLE	INT	VAR_GLOBAL				0	0	0	0	0	0
+PLCDEBUG_FORCE	BOOL	VAR_GLOBAL	TRUE : current PLC mode is POWER on			0	0	0	0	0	0
+PLCDEBUG_BPSET	BOOL	VAR_GLOBAL	TRUE : one or more			0	0	0	0	0	0
+PLCDEBUG_POWERFLOW	BOOL	VAR_GLOBAL	TRUE : current PLC mode is POWER on			0	0	0	0	0	0
+deltaTime	REAL	VAR_GLOBAL				0	0	0	0	0	0
+YEAR	SINT	VAR_GLOBAL	RTU Current Year			0	0	0	0	0	0
+DAY	SINT	VAR_GLOBAL	RTU Current Day			0	0	0	0	0	0
+HOUR	SINT	VAR_GLOBAL	RTU Current Hour			0	0	0	0	0	0
+MINUTE	SINT	VAR_GLOBAL	RTU Current Minute			0	0	0	0	0	0
+MONTH	SINT	VAR_GLOBAL	RTU Current Month			0	0	0	0	0	0
+SECOND	SINT	VAR_GLOBAL	RTU Current Second			0	0	0	0	0	0
+SEC_TODAY	REAL	VAR_GLOBAL	RTU Seconds since Midnight			0	0	0	0	0	0
+EAL5501_MAINS_ALM	BOOL	VAR_GLOBAL	"Mains Failure, w/ 60s off delay"			0	0	0	0	0	0
+EAL5502_BATCH_ALM	BOOL	VAR_GLOBAL	"Battery Charger Failure, w/ 60s off delay"			0	0	0	0	0	0
+XA8000_SMOALM_ALM	BOOL	VAR_GLOBAL	"Smoke Alarm, w/ 60s off delay"			0	0	0	0	0	0
+ZAO9700_SITACC_ALM	BOOL	VAR_GLOBAL	"Site Accessed, w/ 60s off delay"			0	0	0	0	0	0
+ZAO9705_HUTACC_ALM	BOOL	VAR_GLOBAL	"Control Hut Accessed, w/ 60s off delay"			0	0	0	0	0	0
+HS0001D_MAINT_REM	BOOL	VAR_GLOBAL	Maintenance Flag set in Experion		0	0	0	0	0	0	0
+FORCE_DEBUG	BOOL	VAR_GLOBAL	Determine whether any variable has been forced from the MP Debug			0	0	0	0	0	0
+MODE_PLC	BOOL	VAR_GLOBAL	Determine whether the PLC is Running (0) or has stopped/halted (1)			0	0	0	0	0	0
+MLV6401_OPFAIL	BOOL	VAR_GLOBAL	"If Output command is given, and not executed, an output fail alarm is generated"			0	0	0	0	0	0
+UA6401_FTC	BOOL	VAR_GLOBAL	Fail to Close Alarm for SCADA			0	0	0	0	0	0
+UA6401_FTO	BOOL	VAR_GLOBAL	Fail to Close Alarm for SCADA			0	0	0	0	0	0
+UA6414_FTC	BOOL	VAR_GLOBAL	Fail to Close Alarm for SCADA			0	0	0	0	0	0
+UA6414_FTO	BOOL	VAR_GLOBAL	Fail to Close Alarm for SCADA			0	0	0	0	0	0
+ADDR245	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR247	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR249	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR251	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR253	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR255	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR257	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR259	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR451	REAL	VAR_GLOBAL				0	0	0	0	0	0
+ADDR82	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+HeartBeat_counter	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+UA6401B_TIMEOUT_DERV	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+MLV6401_OP_DERV	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+MLV6401_CLOSE_DERV	BOOL	VAR_GLOBAL	Valve close limit			0	0	0	0	0	0
+MLV6401_CLOSE_REM	BOOL	VAR_GLOBAL	Valve close command from SCADA			0	0	0	0	0	0
+MLV6401_CLOSE_READ	BOOL	VAR_GLOBAL	Last valve command sent from SCADA			0	0	0	0	0	0
+MLV6401_OPEN_DERV	BOOL	VAR_GLOBAL	Valve open limit			0	0	0	0	0	0
+MLV6401_OPEN_REM	BOOL	VAR_GLOBAL	Valve open command from SCADA			0	0	0	0	0	0
+MLV6401_OPEN_READ	BOOL	VAR_GLOBAL	Last valve command sent from SCADA			0	0	0	0	0	0
+PDAH6406_DP_DERV	BOOL	VAR_GLOBAL	Differential pressure high (DP > SP)		TRUE	0	0	0	0	0	0
+UA6401_FAULT_DERV	BOOL	VAR_GLOBAL	Valve limit fault			0	0	0	0	0	0
+UA6414B_TIMEOUT_DERV	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+MLV6414_OP_DERV	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+MLV6414_CLOSE_DERV	BOOL	VAR_GLOBAL	Launcher Valve close limit			0	0	0	0	0	0
+MLV6414_CLOSE_REM	BOOL	VAR_GLOBAL	Launcher Valve close command from SCADA			0	0	0	0	0	0
+MLV6414_CLOSE_READ	BOOL	VAR_GLOBAL	Launcher Last valve command sent from SCADA			0	0	0	0	0	0
+MLV6414_OPEN_DERV	BOOL	VAR_GLOBAL	Launcher Valve open limit			0	0	0	0	0	0
+MLV6414_OPEN_REM	BOOL	VAR_GLOBAL	Launcher Valve open command from SCADA			0	0	0	0	0	0
+MLV6414_OPEN_READ	BOOL	VAR_GLOBAL	Launcher Last valve command sent from SCADA			0	0	0	0	0	0
+PDAH6408_DP_DERV	BOOL	VAR_GLOBAL	Launcher Differential pressure high (DP > SP)		TRUE	0	0	0	0	0	0
+UA6414_FAULT_DERV	BOOL	VAR_GLOBAL	Launcher Valve limit fault			0	0	0	0	0	0
+KEYPAD_STATE	BOOL	VAR_GLOBAL	Indicates whether an operator has logged into the Keypad (Login=1; Not Login=0)			0	0	0	0	0	0
+KEYPAD_LOGOFF	BOOL	VAR_GLOBAL	"Log off Keypad, return to Screen Number 1"			0	0	0	0	0	0
+Always_False	BOOL	VAR_GLOBAL	"Bit1: KEYPAD_LOGOFF; Bits 2-16: FALSE (When keypad is forced logoff, only screen 1 is shown)"		FALSE	0	0	0	0	0	0
+Screen_Num_Bit1	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit2	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit3	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit4	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit5	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit6	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit7	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit8	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit9	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit10	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit11	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit12	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit13	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit14	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit15	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+Screen_Num_Bit16	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+EI5503_HIST_LIST	CathodicData	VAR_GLOBAL	"Upstream CPU1 Potential array, 1s data x 60"			0	0	0	0	0	0
+EI5503_USPOT_ADJ	REAL	VAR_GLOBAL	"Upstream CPU1 Potential, adjusted with setpoint"			0	0	0	0	0	0
+EI5503_USPOT_FAIL	BOOL	VAR_GLOBAL	"Upstream CPU1 Potential, quality"			0	0	0	0	0	0
+EI5503_USPOT_PV	REAL	VAR_GLOBAL	Upstream CPU1 Potential			0	0	0	0	0	0
+EI5503_USPOT_REM	REAL	VAR_GLOBAL	"Upstream CPU1 Potential, setpoint from Experion"			0	0	0	0	0	0
+EI5503_USPOT_STOR	REAL	VAR_GLOBAL	"Upstream CPU1 Potential, quality checked"			0	0	0	0	0	0
+EQ5503_USPOT_AVE	REAL	VAR_GLOBAL	"Upstream CPU1 Potential, running average over last 60s"			0	0	0	0	0	0
+EQ5503A_USPOT_ACC	REAL	VAR_GLOBAL	"Upstream CPU1 Potential, accumulator"			0	0	0	0	0	0
+EQ5503A_USPOT_REM	REAL	VAR_GLOBAL	Upstream CPU1 Potential remote set			0	0	0	0	0	0
+EQ5503A_USPOT_RST	BOOL	VAR_GLOBAL	"Upstream CPU1 Potential, accumulator reset"			0	0	0	0	0	0
+EY5503_USPOT_MAX	REAL	VAR_GLOBAL	"Upstream CPU1 Potential, running maximum over last 60s"			0	0	0	0	0	0
+II5504_HIST_LIST	CathodicData	VAR_GLOBAL	"Upstream CPU1 Current array, 1s data x 60"			0	0	0	0	0	0
+II5504_USCUR_ADJ	REAL	VAR_GLOBAL	"Upstream CPU1 Current, adjusted with setpoint"			0	0	0	0	0	0
+II5504_USCUR_FAIL	BOOL	VAR_GLOBAL	"Upstream CPU1 Current, quality"			0	0	0	0	0	0
+II5504_USCUR_PV	REAL	VAR_GLOBAL	Upstream CPU1 Current			0	0	0	0	0	0
+II5504_USCUR_REM	REAL	VAR_GLOBAL	"Upstream CPU1 Current, setpoint from Experion"			0	0	0	0	0	0
+II5504_USCUR_STOR	REAL	VAR_GLOBAL	"Upstream CPU1 Current, quality checked"			0	0	0	0	0	0
+IQ5504_USCUR_AVE	REAL	VAR_GLOBAL	"Upstream CPU1 Current, running average over last 60s"			0	0	0	0	0	0
+IQ5504A_USCUR_ACC	REAL	VAR_GLOBAL	"Upstream CPU1 Current, accumulator"			0	0	0	0	0	0
+IQ5504A_USCUR_REM	REAL	VAR_GLOBAL	Upstream CPU1 Current remote set			0	0	0	0	0	0
+IQ5504A_USCUR_RST	BOOL	VAR_GLOBAL	"Upstream CPU1 Current, accumulator reset"			0	0	0	0	0	0
+IY5504_USCUR_MAX	REAL	VAR_GLOBAL	"Upstream CPU1 Current, running maximum over last 60s"			0	0	0	0	0	0
+EI5506_HIST_LIST	CathodicData	VAR_GLOBAL	"Downstream CPU2 Potential array, 1s data x 60"			0	0	0	0	0	0
+EI5506_DSPOT_ADJ	REAL	VAR_GLOBAL	"Downstream CPU2 Potential, adjusted with setpoint"			0	0	0	0	0	0
+EI5506_DSPOT_FAIL	BOOL	VAR_GLOBAL	"Downstream CPU2 Potential, quality"			0	0	0	0	0	0
+EI5506_DSPOT_PV	REAL	VAR_GLOBAL	Downstream CPU2 Potential			0	0	0	0	0	0
+EI5506_DSPOT_REM	REAL	VAR_GLOBAL	"Downstream CPU2 Potential, setpoint from Experion"			0	0	0	0	0	0
+EI5506_DSPOT_STOR	REAL	VAR_GLOBAL	"Downstream CPU2 Potential, quality checked"			0	0	0	0	0	0
+EQ5506_DSPOT_AVE	REAL	VAR_GLOBAL	"Downstream CPU2 Potential, running average over last 60s"			0	0	0	0	0	0
+EQ5506A_DSPOT_ACC	REAL	VAR_GLOBAL	"Downstream CPU2 Potential, accumulator"			0	0	0	0	0	0
+EQ5506A_DSPOT_REM	REAL	VAR_GLOBAL	Downstream CPU2 Potential remote set			0	0	0	0	0	0
+EQ5506A_DSPOT_RST	BOOL	VAR_GLOBAL	"Downstream CPU2 Potential, accumulator reset"			0	0	0	0	0	0
+EY5506_DSPOT_MAX	REAL	VAR_GLOBAL	"Downstream CPU2 Potential, running maximum over last 60s"			0	0	0	0	0	0
+II5507_HIST_LIST	CathodicData	VAR_GLOBAL	"Downstream CPU2 Current array, 1s data x 60"			0	0	0	0	0	0
+II5507_DSCUR_ADJ	REAL	VAR_GLOBAL	"Downstream CPU2 Current, adjusted with setpoint"			0	0	0	0	0	0
+II5507_DSCUR_FAIL	BOOL	VAR_GLOBAL	"Downstream CPU2 Current, quality"			0	0	0	0	0	0
+II5507_DSCUR_PV	REAL	VAR_GLOBAL	Downstream CPU2 Current			0	0	0	0	0	0
+II5507_DSCUR_REM	REAL	VAR_GLOBAL	"Downstream CPU2 Current, setpoint from Experion"			0	0	0	0	0	0
+II5507_DSCUR_STOR	REAL	VAR_GLOBAL	"Downstream CPU2 Current, quality checked"			0	0	0	0	0	0
+IQ5507_DSCUR_AVE	REAL	VAR_GLOBAL	"Downstream CPU2 Current, running average over last 60s"			0	0	0	0	0	0
+IQ5507A_DSCUR_ACC	REAL	VAR_GLOBAL	"Downstream CPU2 Current, accumulator"			0	0	0	0	0	0
+IQ5507A_DSCUR_REM	REAL	VAR_GLOBAL	Downstream CPU2 Current remote set			0	0	0	0	0	0
+IQ5507A_DSCUR_RST	BOOL	VAR_GLOBAL	"Downstream CPU2 Current, accumulator reset"			0	0	0	0	0	0
+IY5507_DSCUR_MAX	REAL	VAR_GLOBAL	"Downstream CPU2 Current, running maximum over last 60s"			0	0	0	0	0	0
+EI5509_HIST_LIST	CathodicData	VAR_GLOBAL	"Downstream CPU3 Potential array, 1s data x 60"			0	0	0	0	0	0
+EI5509_DSPOT_ADJ	REAL	VAR_GLOBAL	"Downstream CPU3 Potential, adjusted with setpoint"			0	0	0	0	0	0
+EI5509_DSPOT_FAIL	BOOL	VAR_GLOBAL	"Downstream CPU3 Potential, quality"			0	0	0	0	0	0
+EI5509_DSPOT_PV	REAL	VAR_GLOBAL	Downstream CPU3 Potential			0	0	0	0	0	0
+EI5509_DSPOT_REM	REAL	VAR_GLOBAL	"Downstream CPU3 Potential, setpoint from Experion"			0	0	0	0	0	0
+EI5509_DSPOT_STOR	REAL	VAR_GLOBAL	"Downstream CPU3 Potential, quality checked"			0	0	0	0	0	0
+EQ5509_DSPOT_AVE	REAL	VAR_GLOBAL	"Downstream CPU3 Potential, running average over last 60s"			0	0	0	0	0	0
+EQ5509A_DSPOT_ACC	REAL	VAR_GLOBAL	"Downstream CPU3 Potential, accumulator"			0	0	0	0	0	0
+EQ5509A_DSPOT_REM	REAL	VAR_GLOBAL	Downstream CPU3 Potential remote set			0	0	0	0	0	0
+EQ5509A_DSPOT_RST	BOOL	VAR_GLOBAL	"Downstream CPU3 Potential, accumulator reset"			0	0	0	0	0	0
+EY5509_DSPOT_MAX	REAL	VAR_GLOBAL	"Downstream CPU3 Potential, running maximum over last 60s"			0	0	0	0	0	0
+II5510_HIST_LIST	CathodicData	VAR_GLOBAL	"Downstream CPU3 Current array, 1s data x 60"			0	0	0	0	0	0
+II5510_DSCUR_ADJ	REAL	VAR_GLOBAL	"Downstream CPU3 Current, adjusted with setpoint"			0	0	0	0	0	0
+II5510_DSCUR_FAIL	BOOL	VAR_GLOBAL	"Downstream CPU3 Current, quality"			0	0	0	0	0	0
+II5510_DSCUR_PV	REAL	VAR_GLOBAL	Downstream CPU3 Current			0	0	0	0	0	0
+II5510_DSCUR_REM	REAL	VAR_GLOBAL	"Downstream CPU3 Current, setpoint from Experion"			0	0	0	0	0	0
+II5510_DSCUR_STOR	REAL	VAR_GLOBAL	"Downstream CPU3 Current, quality checked"			0	0	0	0	0	0
+IQ5510_DSCUR_AVE	REAL	VAR_GLOBAL	"Downstream CPU3 Current, running average over last 60s"			0	0	0	0	0	0
+IQ5510A_DSCUR_ACC	REAL	VAR_GLOBAL	"Downstream CPU3 Current, accumulator"			0	0	0	0	0	0
+IQ5510A_DSCUR_REM	REAL	VAR_GLOBAL	Downstream CPU3 Current remote set			0	0	0	0	0	0
+IQ5510A_DSCUR_RST	BOOL	VAR_GLOBAL	"Downstream CPU3 Current, accumulator reset"			0	0	0	0	0	0
+IY5510_DSCUR_MAX	REAL	VAR_GLOBAL	"Downstream CPU3 Current, running maximum over last 60s"			0	0	0	0	0	0
+XC5505A_INTRUP_REM	DINT	VAR_GLOBAL	Upstream CPU1 Interrupt ON SP		25	0	0	0	0	0	0
+XC5505B_INTRUP_REM	DINT	VAR_GLOBAL	Upstream CPU1 Interrupt OFF SP		5	0	0	0	0	0	0
+XC5508A_INTRUP_REM	DINT	VAR_GLOBAL	Downstream CPU2 Interrupt ON SP		25	0	0	0	0	0	0
+XC5508B_INTRUP_REM	DINT	VAR_GLOBAL	Downstream CPU2 Interrupt OFF SP		5	0	0	0	0	0	0
+XC5511A_INTRUP_REM	DINT	VAR_GLOBAL	Downstream CPU3 Interrupt ON SP		25	0	0	0	0	0	0
+XC5511B_INTRUP_REM	DINT	VAR_GLOBAL	Downstream CPU3 Interrupt OFF SP		5	0	0	0	0	0	0
+XY5505_INTRUP_REM	BOOL	VAR_GLOBAL	Upstream CPU1 Interrupt Command fr SCADA			0	0	0	0	0	0
+XY5508_INTRUP_REM	BOOL	VAR_GLOBAL	Downstream CPU2 Interrupt Command fr SCADA			0	0	0	0	0	0
+XY5511_INTRUP_REM	BOOL	VAR_GLOBAL	Downstream CPU3 Interrupt Command fr SCADA			0	0	0	0	0	0
+XY5505_INTRUP_FLAG	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+XY5508_INTRUP_FLAG	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+XY5511_INTRUP_FLAG	BOOL	VAR_GLOBAL				0	0	0	0	0	0
+PI6403_PV	REAL	VAR_GLOBAL	Upstream Pressure			0	0	0	0	0	0
+PI6403_EX_HIGH	REAL	VAR_GLOBAL	Upstream Pressure Extended High			0	0	0	0	0	0
+PI6403_HIGH	REAL	VAR_GLOBAL	Upstream Pressure High			0	0	0	0	0	0
+PI6403_LOW	REAL	VAR_GLOBAL	Upstream Pressure Low			0	0	0	0	0	0
+PI6403_EX_LOW	REAL	VAR_GLOBAL	Upstream Pressure Extended Low			0	0	0	0	0	0
+PI6403_OUTRANGE	BOOL	VAR_GLOBAL	Upstream Pressure Over Range			0	0	0	0	0	0
+PI6403_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+PI6405_PV	REAL	VAR_GLOBAL	Downstream Pressure			0	0	0	0	0	0
+PI6405_EX_HIGH	REAL	VAR_GLOBAL	Downstream Pressure Extended High			0	0	0	0	0	0
+PI6405_HIGH	REAL	VAR_GLOBAL	Downstream Pressure High			0	0	0	0	0	0
+PI6405_LOW	REAL	VAR_GLOBAL	Downstream Pressure Low			0	0	0	0	0	0
+PI6405_EX_LOW	REAL	VAR_GLOBAL	Downstream Pressure Extended Low			0	0	0	0	0	0
+PI6405_OUTRANGE	BOOL	VAR_GLOBAL	Downstream Pressure Over Range			0	0	0	0	0	0
+PI6405_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+TI6407_PV	REAL	VAR_GLOBAL	Downstream Temperature			0	0	0	0	0	0
+TI6407_EX_HIGH	REAL	VAR_GLOBAL	Downstream Temperature Extended High			0	0	0	0	0	0
+TI6407_HIGH	REAL	VAR_GLOBAL	Downstream Temperature High			0	0	0	0	0	0
+TI6407_LOW	REAL	VAR_GLOBAL	Downstream Temperature Low			0	0	0	0	0	0
+TI6407_EX_LOW	REAL	VAR_GLOBAL	Downstream Temperature Extended Low			0	0	0	0	0	0
+TI6407_OUTRANGE	BOOL	VAR_GLOBAL	Downstream Temperature Out of Range			0	0	0	0	0	0
+TI6407_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+EI5503_PV	REAL	VAR_GLOBAL	Upstream CPU1 Potential			0	0	0	0	0	0
+EI5503_EX_HIGH	REAL	VAR_GLOBAL	Upstream CPU1 Potential Extended High			0	0	0	0	0	0
+EI5503_HIGH	REAL	VAR_GLOBAL	Upstream CPU1 Potential High			0	0	0	0	0	0
+EI5503_LOW	REAL	VAR_GLOBAL	Upstream CPU1 Potential Low			0	0	0	0	0	0
+EI5503_EX_LOW	REAL	VAR_GLOBAL	Upstream CPU1 Potential Extended Low			0	0	0	0	0	0
+EI5503_OUTRANGE	BOOL	VAR_GLOBAL	Upstream CPU1 Potential Out of Range			0	0	0	0	0	0
+EI5503_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+EI5512A_PV	REAL	VAR_GLOBAL	Battery Bank A Voltage			0	0	0	0	0	0
+EI5512A_EX_HIGH	REAL	VAR_GLOBAL	Battery Bank A Voltage Extended High			0	0	0	0	0	0
+EI5512A_HIGH	REAL	VAR_GLOBAL	Battery Bank A Voltage High			0	0	0	0	0	0
+EI5512A_LOW	REAL	VAR_GLOBAL	Battery Bank A Voltage Low			0	0	0	0	0	0
+EI5512A_EX_LOW	REAL	VAR_GLOBAL	Battery Bank A Voltage Extended Low			0	0	0	0	0	0
+EI5512A_OUTRANGE	BOOL	VAR_GLOBAL	Battery Bank A Voltage Out of Range			0	0	0	0	0	0
+EI5512A_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+EI5512B_PV	REAL	VAR_GLOBAL	Battery Bank B Voltage			0	0	0	0	0	0
+EI5512B_EX_HIGH	REAL	VAR_GLOBAL	Battery Bank B Voltage Extended High			0	0	0	0	0	0
+EI5512B_HIGH	REAL	VAR_GLOBAL	Battery Bank B Voltage High			0	0	0	0	0	0
+EI5512B_LOW	REAL	VAR_GLOBAL	Battery Bank B Voltage Low			0	0	0	0	0	0
+EI5512B_EX_LOW	REAL	VAR_GLOBAL	Battery Bank B Voltage Extended Low			0	0	0	0	0	0
+EI5512B_OUTRANGE	BOOL	VAR_GLOBAL	Battery Bank B Voltage Out of Range			0	0	0	0	0	0
+EI5512B_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+II5504_PV	REAL	VAR_GLOBAL	Upstream CPU1 Current			0	0	0	0	0	0
+II5504_EX_HIGH	REAL	VAR_GLOBAL	Upstream CPU1 Current Extended High			0	0	0	0	0	0
+II5504_HIGH	REAL	VAR_GLOBAL	Upstream CPU1 Current High			0	0	0	0	0	0
+II5504_LOW	REAL	VAR_GLOBAL	Upstream CPU1 Current Low			0	0	0	0	0	0
+II5504_EX_LOW	REAL	VAR_GLOBAL	Upstream CPU1 Current Extended Low			0	0	0	0	0	0
+II5504_OUTRANGE	BOOL	VAR_GLOBAL	Upstream CPU1 Current Out of Range			0	0	0	0	0	0
+II5504_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+EI5506_PV	REAL	VAR_GLOBAL	Downstream CPU2 Potential			0	0	0	0	0	0
+EI5506_EX_HIGH	REAL	VAR_GLOBAL	Downstream CPU2 Potential Extended High			0	0	0	0	0	0
+EI5506_HIGH	REAL	VAR_GLOBAL	Downstream CPU2 Potential High			0	0	0	0	0	0
+EI5506_LOW	REAL	VAR_GLOBAL	Downstream CPU2 Potential Low			0	0	0	0	0	0
+EI5506_EX_LOW	REAL	VAR_GLOBAL	Downstream CPU2 Potential Extended Low			0	0	0	0	0	0
+EI5506_OUTRANGE	BOOL	VAR_GLOBAL	Downstream CPU2 Potential Out of Range			0	0	0	0	0	0
+EI5506_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+II5507_PV	REAL	VAR_GLOBAL	Downstream CPU2 Current			0	0	0	0	0	0
+II5507_EX_HIGH	REAL	VAR_GLOBAL	Downstream CPU2 Current Extended High			0	0	0	0	0	0
+II5507_HIGH	REAL	VAR_GLOBAL	Downstream CPU2 Current High			0	0	0	0	0	0
+II5507_LOW	REAL	VAR_GLOBAL	Downstream CPU2 Current Low			0	0	0	0	0	0
+II5507_EX_LOW	REAL	VAR_GLOBAL	Downstream CPU2 Current Extended Low			0	0	0	0	0	0
+II5507_OUTRANGE	BOOL	VAR_GLOBAL	Downstream CPU2 Current Out of Range			0	0	0	0	0	0
+II5507_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+EI5509_PV	REAL	VAR_GLOBAL	Downstream CPU3 Potential			0	0	0	0	0	0
+EI5509_EX_HIGH	REAL	VAR_GLOBAL	Downstream CPU3 Potential Extended High			0	0	0	0	0	0
+EI5509_HIGH	REAL	VAR_GLOBAL	Downstream CPU3 Potential High			0	0	0	0	0	0
+EI5509_LOW	REAL	VAR_GLOBAL	Downstream CPU3 Potential Low			0	0	0	0	0	0
+EI5509_EX_LOW	REAL	VAR_GLOBAL	Downstream CPU3 Potential Extended Low			0	0	0	0	0	0
+EI5509_OUTRANGE	BOOL	VAR_GLOBAL	Downstream CPU3 Potential Out of Range			0	0	0	0	0	0
+EI5509_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+II5510_PV	REAL	VAR_GLOBAL	Downstream CPU3 Current			0	0	0	0	0	0
+II5510_EX_HIGH	REAL	VAR_GLOBAL	Downstream CPU3 Current Extended High			0	0	0	0	0	0
+II5510_HIGH	REAL	VAR_GLOBAL	Downstream CPU3 Current High			0	0	0	0	0	0
+II5510_LOW	REAL	VAR_GLOBAL	Downstream CPU3 Current Low			0	0	0	0	0	0
+II5510_EX_LOW	REAL	VAR_GLOBAL	Downstream CPU3 Current Extended Low			0	0	0	0	0	0
+II5510_OUTRANGE	BOOL	VAR_GLOBAL	Downstream CPU3 Current Out of Range			0	0	0	0	0	0
+II5510_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+PI6408_PV	REAL	VAR_GLOBAL	Launcher Downstream Pressure			0	0	0	0	0	0
+PI6408_EX_HIGH	REAL	VAR_GLOBAL	Launcher Downstream Pressure Extended High			0	0	0	0	0	0
+PI6408_HIGH	REAL	VAR_GLOBAL	Launcher Downstream Pressure High			0	0	0	0	0	0
+PI6408_LOW	REAL	VAR_GLOBAL	Launcher Downstream Pressure Low			0	0	0	0	0	0
+PI6408_EX_LOW	REAL	VAR_GLOBAL	Launcher Downstream Pressure Extended Low			0	0	0	0	0	0
+PI6408_OUTRANGE	BOOL	VAR_GLOBAL	Launcher Downstream Pressure Over Range			0	0	0	0	0	0
+PI6408_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+TI6413_PV	REAL	VAR_GLOBAL	Launcher Downstream Temperature			0	0	0	0	0	0
+TI6413_EX_HIGH	REAL	VAR_GLOBAL	Launcher Downstream Temperature Extended High			0	0	0	0	0	0
+TI6413_HIGH	REAL	VAR_GLOBAL	Launcher Downstream Temperature High			0	0	0	0	0	0
+TI6413_LOW	REAL	VAR_GLOBAL	Launcher Downstream Temperature Low			0	0	0	0	0	0
+TI6413_EX_LOW	REAL	VAR_GLOBAL	Launcher Downstream Temperature Extended Low			0	0	0	0	0	0
+TI6413_OUTRANGE	BOOL	VAR_GLOBAL	Launcher Downstream Temperature Out of Range			0	0	0	0	0	0
+TI6413_AI_XMIT	REAL	VAR_GLOBAL	XMIT Value used in Scada to generate an alarm if Open loop			0	0	0	0	0	0
+ZAO9705_HUTACC_STAT	BOOL	VAR_GLOBAL	Control Hut Accessed			0	0	0	0	0	0
+ZAO9700_SITACC_STAT	BOOL	VAR_GLOBAL	Site Accessed			0	0	0	0	0	0
+EAL5501_MAINS_STAT	BOOL	VAR_GLOBAL	Mains Failure			0	0	0	0	0	0
+EAL5502_BATCHG_STAT	BOOL	VAR_GLOBAL	Battery Charger Failure			0	0	0	0	0	0
+XA8000_SMOALM_STAT	BOOL	VAR_GLOBAL	Smoke Alarm			0	0	0	0	0	0
+ZIO6401_STAT	BOOL	VAR_GLOBAL	MLV Open Indication			0	0	0	0	0	0
+ZIC6401_STAT	BOOL	VAR_GLOBAL	MLV Close Indication			0	0	0	0	0	0
+UA6401_STAT	BOOL	VAR_GLOBAL	MLV Isolated			0	0	0	0	0	0
+ZIO6414_STAT	BOOL	VAR_GLOBAL	Launcher MLV Open Indication			0	0	0	0	0	0
+ZIC6414_STAT	BOOL	VAR_GLOBAL	Launcher MLV Close Indication			0	0	0	0	0	0
+UA6414_STAT	BOOL	VAR_GLOBAL	Launcher MLV Isolated			0	0	0	0	0	0
+HY6401_OPEN_CMD	BOOL	VAR_GLOBAL	MLV Open Command			0	0	0	0	0	0
+HY6401_CLOSE_CMD	BOOL	VAR_GLOBAL	MLV Close Command			0	0	0	0	0	0
+HY6414_OPEN_CMD	BOOL	VAR_GLOBAL	Launcher MLV Open Command			0	0	0	0	0	0
+HY6414_CLOSE_CMD	BOOL	VAR_GLOBAL	Launcher MLV Close Command			0	0	0	0	0	0
+XY5505_INTRUP_CMD	BOOL	VAR_GLOBAL	Upstream CPU1 Interrupt Command			0	0	0	0	0	0
+XY5508_INTRUP_CMD	BOOL	VAR_GLOBAL	Downstream CPU2 Interrupt Command			0	0	0	0	0	0
+XY5511_INTRUP_CMD	BOOL	VAR_GLOBAL	Downstream CPU3 Interrupt Command			0	0	0	0	0	0
+PI6403_AI1	ANALOG_INPUT_TYPE	VAR_GLOBAL	Upstream Pressure	%IB0		0	0	0	0	0	0
+PI6405_AI2	ANALOG_INPUT_TYPE	VAR_GLOBAL	Downstream Pressure	%IB24		0	0	0	0	0	0
+TI6407_AI3	ANALOG_INPUT_TYPE	VAR_GLOBAL	Downstream Temperature	%IB48		0	0	0	0	0	0
+EI5503_AI6	ANALOG_INPUT_TYPE	VAR_GLOBAL	Upstream CPU1 Potential	%IB72		0	0	0	0	0	0
+EI5512A_AI7	ANALOG_INPUT_TYPE	VAR_GLOBAL	Battery Bank A Voltage	%IB96		0	0	0	0	0	0
+EI5512B_AI8	ANALOG_INPUT_TYPE	VAR_GLOBAL	Battery Bank B Voltage	%IB120		0	0	0	0	0	0
+II5504_EXIO1_AI1	ANALOG_INPUT_TYPE	VAR_GLOBAL	Upstream CPU1 Current	%IB178		0	0	0	0	0	0
+EI5506_EXIO1_AI2	ANALOG_INPUT_TYPE	VAR_GLOBAL	Downstream CPU2 Potential	%IB202		0	0	0	0	0	0
+II5507_EXIO1_AI3	ANALOG_INPUT_TYPE	VAR_GLOBAL	Downstream CPU2 Current	%IB226		0	0	0	0	0	0
+EI5509_EXIO1_AI4	ANALOG_INPUT_TYPE	VAR_GLOBAL	Downstream CPU3 Potential	%IB250		0	0	0	0	0	0
+II5510_EXIO1_AI5	ANALOG_INPUT_TYPE	VAR_GLOBAL	Downstream CPU3 Current	%IB274		0	0	0	0	0	0
+PI6408_EXIO1_AI6	ANALOG_INPUT_TYPE	VAR_GLOBAL	Launcher Downstream Pressure	%IB298		0	0	0	0	0	0
+TI6413_EXIO1_AI7	ANALOG_INPUT_TYPE	VAR_GLOBAL	Launcher Downstream Temperature	%IB322		0	0	0	0	0	0
+ZIO6401_DI1	DIGITAL_INPUT_TYPE	VAR_GLOBAL	MLV Open	%IB144		0	0	0	0	0	0
+ZAO9705_DI2	DIGITAL_INPUT_TYPE	VAR_GLOBAL	Control Hut Accessed	%IB146		0	0	0	0	0	0
+ZIC6401_DI3	DIGITAL_INPUT_TYPE	VAR_GLOBAL	MLV Closed	%IB148		0	0	0	0	0	0
+ZAO9700_DI4	DIGITAL_INPUT_TYPE	VAR_GLOBAL	Site Accessed	%IB150		0	0	0	0	0	0
+EAL5501_DI5	DIGITAL_INPUT_TYPE	VAR_GLOBAL	Mains Failure	%IB152		0	0	0	0	0	0
+EAL5502_DI6	DIGITAL_INPUT_TYPE	VAR_GLOBAL	Battery Charger Malfunction	%IB154		0	0	0	0	0	0
+XA8000_DI7	DIGITAL_INPUT_TYPE	VAR_GLOBAL	Control Hut Smoke Detected	%IB156		0	0	0	0	0	0
+UA6401_DI8	DIGITAL_INPUT_TYPE	VAR_GLOBAL	MLV Isolated	%IB158		0	0	0	0	0	0
+ZIO6414_DI9	DIGITAL_INPUT_TYPE	VAR_GLOBAL	Launcher MLV Open	%IB160		0	0	0	0	0	0
+ZIC6414_DI10	DIGITAL_INPUT_TYPE	VAR_GLOBAL	Launcher MLV Closed	%IB162		0	0	0	0	0	0
+UA6414_EXIO1_DI1	DIGITAL_INPUT_TYPE	VAR_GLOBAL	Launcher MLV Isolated	%IB164		0	0	0	0	0	0
+HY6401B_DO1_READBACK	DIGITAL_OUTPUT_READBACK_TYPE	VAR_GLOBAL	MLV Open Valve	%IB166		0	0	0	0	0	0
+HY6401A_DO2_READBACK	DIGITAL_OUTPUT_READBACK_TYPE	VAR_GLOBAL	MLV Close Valve	%IB168		0	0	0	0	0	0
+HY6414B_DO3_READBACK	DIGITAL_OUTPUT_READBACK_TYPE	VAR_GLOBAL	Launcher MLV Open Valve	%IB170		0	0	0	0	0	0
+HY6414A_DO4_READBACK	DIGITAL_OUTPUT_READBACK_TYPE	VAR_GLOBAL	Launcher MLV Close Valve	%IB172		0	0	0	0	0	0
+XY5505_DO5_READBACK	DIGITAL_OUTPUT_READBACK_TYPE	VAR_GLOBAL	Upstream CPU1 Interrupt	%IB174		0	0	0	0	0	0
+XY5508_DO6_READBACK	DIGITAL_OUTPUT_READBACK_TYPE	VAR_GLOBAL	Downstream CPU2 Interrupt	%IB176		0	0	0	0	0	0
+XY5511_EXIO1_DO1_READBACK	DIGITAL_OUTPUT_READBACK_TYPE	VAR_GLOBAL	Downstream CPU3 Interrupt	%IB346		0	0	0	0	0	0
+HY6401B_DO1	DIGITAL_OUTPUT_TYPE	VAR_GLOBAL	MLV Open Valve	%QB0		0	0	0	0	0	0
+HY6401A_DO2	DIGITAL_OUTPUT_TYPE	VAR_GLOBAL	MLV Close Valve	%QB1		0	0	0	0	0	0
+HY6414B_DO3	DIGITAL_OUTPUT_TYPE	VAR_GLOBAL	Launcher MLV Open Valve	%QB2		0	0	0	0	0	0
+HY6414A_DO4	DIGITAL_OUTPUT_TYPE	VAR_GLOBAL	Launcher MLV Close Valve	%QB3		0	0	0	0	0	0
+XY5505_DO5	DIGITAL_OUTPUT_TYPE	VAR_GLOBAL	Upstream CPU1 Interrupt	%QB4		0	0	0	0	0	0
+XY5508_DO6	DIGITAL_OUTPUT_TYPE	VAR_GLOBAL	Downstream CPU2 Interrupt	%QB5		0	0	0	0	0	0
+XY5511_EXIO1_DO1	DIGITAL_OUTPUT_TYPE	VAR_GLOBAL	Downstream CPU3 Interrupt	%QB6		0	0	0	0	0	0
+IOM00_STATUS	UDINT	VAR_GLOBAL	Expansion I/O module status. 0: Good; 1: Faulty.	%ID348		0	0	0	0	0	0
+IOM00_CHN_STATUS	UDINT	VAR_GLOBAL	Channel status within one expansion I/O module and each bit representing one channel. 0: Good; 1: Faulty.	%ID352		0	0	0	0	0	0
+IOM01_STATUS	UDINT	VAR_GLOBAL	Expansion I/O module status. 0: Good; 1: Faulty.	%ID356		0	0	0	0	0	0
+IOM01_CHN_STATUS	UDINT	VAR_GLOBAL	Channel status within one expansion I/O module and each bit representing one channel. 0: Good; 1: Faulty.	%ID360		0	0	0	0	0	0
+CNTLR_ETH1_IPCONFLICT	BOOL	VAR_GLOBAL	ETH1 IP conflict status on network. TRUE: conflict; FALSE: no conflict.	%MX3.100000.0		0	0	0	0	0	0
+CNTLR_ETH2_IPCONFLICT	BOOL	VAR_GLOBAL	ETH2 IP conflict status on network. TRUE: conflict; FALSE: no conflict.	%MX3.100001.0		0	0	0	0	0	0
+CNTLR_CPUFREE	REAL	VAR_GLOBAL	CPU free (%)	%MD3.100004		0	0	0	0	0	0
+CNTLR_CPUFREEMIN	REAL	VAR_GLOBAL	Minimum CPU free (%)	%MD3.100008		0	0	0	0	0	0
+CNTLR_MEMTOTAL	UDINT	VAR_GLOBAL	Total memory (kB)	%MD3.100012		0	0	0	0	0	0
+CNTLR_MEMFREE	REAL	VAR_GLOBAL	Free memory (%)	%MD3.100016		0	0	0	0	0	0
+CNTLR_MEMFREEMIN	REAL	VAR_GLOBAL	Minimum free memory (%)	%MD3.100020		0	0	0	0	0	0
+CNTLR_CFGDATA_MEMTOTAL	UDINT	VAR_GLOBAL	Total configuration data memory (kB)	%MD3.100024		0	0	0	0	0	0
+CNTLR_CFGDATA_MEMFREE	UDINT	VAR_GLOBAL	Free configuration data memory (kB)	%MD3.100028		0	0	0	0	0	0
+CNTLR_LOG_MEMTOTAL	UDINT	VAR_GLOBAL	"Total flash memory for datalog, DNP events and system event log (kB)"	%MD3.100032		0	0	0	0	0	0
+CNTLR_LOG_MEMFREE	UDINT	VAR_GLOBAL	"Free flash memory for datalog, DNP events and system event log (kB)"	%MD3.100036		0	0	0	0	0	0
+CNTLR_SDCARD_MEMTOTAL	UDINT	VAR_GLOBAL	Total SD card memory (kB)	%MD3.100040		0	0	0	0	0	0
+CNTLR_SDCARD_MEMFREE	UDINT	VAR_GLOBAL	Free SD card memory (kB)	%MD3.100044		0	0	0	0	0	0
+CNTLR_UPTIMESTR	STRING	VAR_GLOBAL	"Time since system power on or reboot,  days, hours, minutes, seconds."	%MB3.100048		0	0	0	0	0	0
+CNTLR_UPTIME	UDINT	VAR_GLOBAL	"Time since system power on or reboot, seconds."	%MD3.100184		0	0	0	0	0	0
+CNTLR_TEMP	REAL	VAR_GLOBAL	Enclosure Temperature (degC)	%MD3.100188		0	0	0	0	0	0
+CNTLR_CPUECLR	REAL	VAR_GLOBAL	CPU Used for eCLR (%)	%MD3.100192		0	0	0	0	0	0
+CNTLR_MEMECLR	UDINT	VAR_GLOBAL	RAM Used for eCLR (kB)	%MD3.100196		0	0	0	0	0	0
+CNTLR_LOCALTIMESTR	STRING	VAR_GLOBAL	RTU Local Time in string	%MB3.100200		0	0	0	0	0	0
+CNTLR_LOCALTIME	UDINT	VAR_GLOBAL	"RTU local time, seconds since 00:00:00 1-Jan-1970"	%MD3.100336		0	0	0	0	0	0
+CNTLR_UTCTIME	UDINT	VAR_GLOBAL	"RTU UTC time, seconds since 00:00:00 1-Jan-1970"	%MD3.100340		0	0	0	0	0	0
+CNTLR_TIMEZONE	DINT	VAR_GLOBAL	"RTU time zone, number of seconds offset from UTC; positive means local time is later than UTC."	%MD3.100344		0	0	0	0	0	0
+CNTLR_ETH1_LINK	USINT	VAR_GLOBAL	ETH1 cable connection status. 0: not configured; 1: configured and connected; 2: configured but not connected.	%MB3.100348		0	0	0	0	0	0
+CNTLR_ETH2_LINK	USINT	VAR_GLOBAL	ETH2 cable connection status. 0: not configured; 1: configured and connected; 2: configured but not connected.	%MB3.100349		0	0	0	0	0	0
+CNTLR_ETH3_LINK	USINT	VAR_GLOBAL	ETH3 cable connection status. 0: not configured; 1: both port A and port B connected; 2: neither portA nor port B connected; 3: only port A connected; 4: only port B connected.	%MB3.100350		0	0	0	0	0	0
+CNTLR_NAME	STRING	VAR_GLOBAL	Station Name	%MB3.100351		0	0	0	0	0	0
+CNTLR_SERIALNUMBER	STRING	VAR_GLOBAL	Serial Number	%MB3.100484		0	0	0	0	0	0
+CNTLR_STATE	UINT	VAR_GLOBAL	RTU state. 0: startup; 1: primary Running; 2: primary Stopped; 3: primary no program; 4: secondary synchronized; 5: secondary synchronizing; 6: secondary not synchronized; 7: system error; 8: primary in firmware upgrade; 9: primary formating SD card; 10: primary in engineering mode; 11: secondary in firmware upgrade; 12: secondary formating SD card; 13: secondary in engineering mode.	%MW3.100618		0	0	0	0	0	0
+CNTLR_PROGRAM_DATE	UINT	VAR_GLOBAL	"Date of  last program compilation, Julian days since 1-Jan-1981"	%MW3.100620		0	0	0	0	0	0
+CNTLR_PROGRAM_MIDNIGHTTIME	REAL	VAR_GLOBAL	"Time of  last program compilation, number of seconds since midnight"	%MD3.100624		0	0	0	0	0	0
+CNTLR_PROGRAM_TIME	UDINT	VAR_GLOBAL	"Epoch time of  last program compilation, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.100628		0	0	0	0	0	0
+CNTLR_RESETSTATS	BOOL	VAR_GLOBAL	Command to reset controller statistics	%MX3.100632.0		0	0	0	0	0	0
+CNTLR_MACETH1	STRING	VAR_GLOBAL	ETH1 MAC address	%MB3.100633		0	0	0	0	0	0
+CNTLR_MACETH2	STRING	VAR_GLOBAL	ETH2 MAC address	%MB3.100766		0	0	0	0	0	0
+CNTLR_MACETH3	STRING	VAR_GLOBAL	ETH3 MAC address	%MB3.100899		0	0	0	0	0	0
+CNTLR_MACETH4	STRING	VAR_GLOBAL	ETH4 MAC address	%MB3.101032		0	0	0	0	0	0
+CNTLR_EXPERION_CHECKSUM	UDINT	VAR_GLOBAL	The checksum of Experion integration file	%MD3.101168		0	0	0	0	0	0
+CNTLR_FIRMWAREVERSION	STRING	VAR_GLOBAL	Firmware Version	%MB3.130000		0	0	0	0	0	0
+CNTLR_HARDWAREMAJOR	STRING	VAR_GLOBAL	Hardware Major Version	%MB3.130133		0	0	0	0	0	0
+CNTLR_HARDWAREMINOR	STRING	VAR_GLOBAL	Hardware Minor Version	%MB3.130266		0	0	0	0	0	0
+CNTLR_HARDWARETYPE	STRING	VAR_GLOBAL	Hardware Type	%MB3.130399		0	0	0	0	0	0
+CNTLR_HARDWARECODE	STRING	VAR_GLOBAL	Hardware Code	%MB3.130532		0	0	0	0	0	0
+CNTLR_CPUPLATFORM	REAL	VAR_GLOBAL	CPU Used for Platform (%)	%MD3.101180		0	0	0	0	0	0
+CNTLR_MEMPLATFORM	UDINT	VAR_GLOBAL	RAM Used for Platform (kB)	%MD3.101184		0	0	0	0	0	0
+CNTLR_CPUWATCHDOGMGR	REAL	VAR_GLOBAL	CPU Used for WatchdogMgr (%)	%MD3.101188		0	0	0	0	0	0
+CNTLR_MEMWATCHDOGMGR	UDINT	VAR_GLOBAL	RAM Used for WatchdogMgr (kB)	%MD3.101192		0	0	0	0	0	0
+CNTLR_CPULOGSIGNER	REAL	VAR_GLOBAL	CPU Used for Logsigner (%)	%MD3.101196		0	0	0	0	0	0
+CNTLR_MEMLOGSIGNER	UDINT	VAR_GLOBAL	RAM Used for Logsigner (kB)	%MD3.101200		0	0	0	0	0	0
+CNTLR_CPUDIAGNOSTIC	REAL	VAR_GLOBAL	CPU Used for Diagnostic (%)	%MD3.101204		0	0	0	0	0	0
+CNTLR_MEMDIAGNOSTIC	UDINT	VAR_GLOBAL	RAM Used for Diagnostic (kB)	%MD3.101208		0	0	0	0	0	0
+CNTLR_CPUCERTMNGRAPP	REAL	VAR_GLOBAL	CPU Used for Certmngrapp (%)	%MD3.101212		0	0	0	0	0	0
+CNTLR_MEMCERTMNGRAPP	UDINT	VAR_GLOBAL	RAM Used for Certmngrapp (kB)	%MD3.101216		0	0	0	0	0	0
+CNTLR_CPUUSERDEFINED	REAL	VAR_GLOBAL	CPU Used for Userdefined (%)	%MD3.101220		0	0	0	0	0	0
+CNTLR_MEMUSERDEFINED	UDINT	VAR_GLOBAL	RAM Used for Userdefined (kB)	%MD3.101224		0	0	0	0	0	0
+CNTLR_CPUHARTSRV	REAL	VAR_GLOBAL	CPU Used for Hartsrv (%)	%MD3.101228		0	0	0	0	0	0
+CNTLR_MEMHARTSRV	UDINT	VAR_GLOBAL	RAM Used for Hartsrv (kB)	%MD3.101232		0	0	0	0	0	0
+CNTLR_CPUCOMMS	REAL	VAR_GLOBAL	CPU Used for Comms (%)	%MD3.101236		0	0	0	0	0	0
+CNTLR_MEMCOMMS	UDINT	VAR_GLOBAL	RAM Used for Comms (kB)	%MD3.101240		0	0	0	0	0	0
+CNTLR_CPUMBMASTER	REAL	VAR_GLOBAL	CPU Used for Mbmaster (%)	%MD3.101244		0	0	0	0	0	0
+CNTLR_MEMMBMASTER	UDINT	VAR_GLOBAL	RAM Used for Mbmaster (kB)	%MD3.101248		0	0	0	0	0	0
+CNTLR_CPUMBSLAVE	REAL	VAR_GLOBAL	CPU Used for Mbslave (%)	%MD3.101252		0	0	0	0	0	0
+CNTLR_MEMMBSLAVE	UDINT	VAR_GLOBAL	RAM Used for Mbslave (kB)	%MD3.101256		0	0	0	0	0	0
+CNTLR_CPUDNPSLAVE	REAL	VAR_GLOBAL	CPU Used for Dnpslave (%)	%MD3.101260		0	0	0	0	0	0
+CNTLR_MEMDNPSLAVE	UDINT	VAR_GLOBAL	RAM Used for Dnpslave (kB)	%MD3.101264		0	0	0	0	0	0
+CNTLR_CPUONLINEDIAG	REAL	VAR_GLOBAL	CPU Used for Onlinediag (%)	%MD3.101268		0	0	0	0	0	0
+CNTLR_MEMONLINEDIAG	UDINT	VAR_GLOBAL	RAM Used for Onlinediag (kB)	%MD3.101272		0	0	0	0	0	0
+CNTLR_CPUEFWMGR	REAL	VAR_GLOBAL	CPU Used for Fwmgr (%)	%MD3.101276		0	0	0	0	0	0
+CNTLR_MEMFWMGR	UDINT	VAR_GLOBAL	RAM Used for Fwmgr (kB)	%MD3.101280		0	0	0	0	0	0
+CNTLR_CPUEFM	REAL	VAR_GLOBAL	CPU Used for Efm (%)	%MD3.101284		0	0	0	0	0	0
+CNTLR_MEMEFM	UDINT	VAR_GLOBAL	RAM Used for Efm (kB)	%MD3.101288		0	0	0	0	0	0
+CNTLR_CPURINGSRV	REAL	VAR_GLOBAL	CPU Used for Ringsrv (%)	%MD3.101292		0	0	0	0	0	0
+CNTLR_MEMRINGSRV	UDINT	VAR_GLOBAL	RAM Used for Ringsrv (kB)	%MD3.101296		0	0	0	0	0	0
+CNTLR_CPUENRONSLAVE	REAL	VAR_GLOBAL	CPU Used for Enronslave (%)	%MD3.101300		0	0	0	0	0	0
+CNTLR_MEMENRONSLAVE	UDINT	VAR_GLOBAL	RAM Used for Enronslave (kB)	%MD3.101304		0	0	0	0	0	0
+CNTLR_CPURTUIOMGR	REAL	VAR_GLOBAL	CPU Used for Rtuiomgr (%)	%MD3.101308		0	0	0	0	0	0
+CNTLR_MEMRTUIOMGR	UDINT	VAR_GLOBAL	RAM Used for Rtuiomgr (kB)	%MD3.101312		0	0	0	0	0	0
+CNTLR_CPUDATALOG	REAL	VAR_GLOBAL	CPU Used for Datalog (%)	%MD3.101316		0	0	0	0	0	0
+CNTLR_MEMDATALOG	UDINT	VAR_GLOBAL	RAM Used for Datalog (kB)	%MD3.101320		0	0	0	0	0	0
+CNTLR_CPUWIRELESSIF	REAL	VAR_GLOBAL	CPU Used for Wirelessif (%)	%MD3.101324		0	0	0	0	0	0
+CNTLR_MEMWIRELESSIF	UDINT	VAR_GLOBAL	RAM Used for Wirelessif (kB)	%MD3.101328		0	0	0	0	0	0
+CNTLR_PROJECT_NAME	STRING	VAR_GLOBAL	Project Name	%MB3.101332		0	0	0	0	0	0
+CNTLR_MODULE_NO	STRING	VAR_GLOBAL	Module Number	%MB3.101465		0	0	0	0	0	0
+CNTLR_SW_VER	STRING	VAR_GLOBAL	Software Version	%MB3.101598		0	0	0	0	0	0
+CNTLR_MODE_CODE	USINT	VAR_GLOBAL	Controller State Code 0: On; 1: Loading; 2: Starting; 3: Running; 4: Halt; 5: Stopping; 6: Stop; 7: Resetting; 8: Exception; 9: Max.	%MB3.101731		0	0	0	0	0	0
+CNTLR_MODE	STRING	VAR_GLOBAL	Controller State	%MB3.101732		0	0	0	0	0	0
+CNTLR_DOWNLOAD_TIME_STR	STRING	VAR_GLOBAL	"Download time in days, hours, minutes and seconds (%dd, %dh, %dm, %ds)"	%MB3.101865		0	0	0	0	0	0
+CNTLR_DOWNLOAD_TIME	UDINT	VAR_GLOBAL	"Epoch time of program download, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.102000		0	0	0	0	0	0
+CNTLR_PROGRAM_TIME_STR	STRING	VAR_GLOBAL	"Program time in days, hours, minutes and seconds (%dd, %dh, %dm, %ds)"	%MB3.102004		0	0	0	0	0	0
+CNTLR_PWR_ERR_LEFT	BOOL	VAR_GLOBAL	Left power error	%MX3.140007.0		0	0	0	0	0	0
+CNTLR_PWR_ERR_RIGHT	BOOL	VAR_GLOBAL	Right power error	%MX3.140008.0		0	0	0	0	0	0
+CNTLR_HW_ERR	BOOL	VAR_GLOBAL	Hardware error	%MX3.140009.0		0	0	0	0	0	0
+CNTLR_HW_ERR_CODE	UINT	VAR_GLOBAL	Hardware error code	%MW3.140010		0	0	0	0	0	0
+CNTLR_CPU0FREE	REAL	VAR_GLOBAL	CPU core 0 free (%)	%MD3.101172		0	0	0	0	0	0
+CNTLR_CPU1FREE	REAL	VAR_GLOBAL	CPU core 1 free (%)	%MD3.101176		0	0	0	0	0	0
+DNPSLV_ONLINE	UDINT	VAR_GLOBAL	Connection count	%MD3.105000		0	0	0	0	0	0
+DNPSLV_OFFLINE	UDINT	VAR_GLOBAL	Disconnection count	%MD3.105004		0	0	0	0	0	0
+DNPSLV_ASDUTX	UDINT	VAR_GLOBAL	ASDU sent	%MD3.105008		0	0	0	0	0	0
+DNPSLV_ASDURX	UDINT	VAR_GLOBAL	ASDU received	%MD3.105012		0	0	0	0	0	0
+DNPSLV_EVENTOVFL	UDINT	VAR_GLOBAL	Event overflow	%MD3.105016		0	0	0	0	0	0
+DNPSLV_EVENTTX	UDINT	VAR_GLOBAL	Event sent	%MD3.105020		0	0	0	0	0	0
+DNPSLV_EVENTCNFM	UDINT	VAR_GLOBAL	Event confirmation	%MD3.105024		0	0	0	0	0	0
+DNPSLV_REQTMT	UDINT	VAR_GLOBAL	Request timeouts	%MD3.105028		0	0	0	0	0	0
+DNPSLV_REQFAIL	UDINT	VAR_GLOBAL	Request failures	%MD3.105032		0	0	0	0	0	0
+DNPSLV_ASDUTXAVG	LREAL	VAR_GLOBAL	ASDU sent per minute	%ML3.105040		0	0	0	0	0	0
+DNPSLV_ASDURXAVG	LREAL	VAR_GLOBAL	ASDU received per minute	%ML3.105048		0	0	0	0	0	0
+DNPSLV_EVENTTXAVG	LREAL	VAR_GLOBAL	Event sent per minute	%ML3.105056		0	0	0	0	0	0
+DNPSLV_EVENTCNFMAVG	LREAL	VAR_GLOBAL	Event confirmation per minute	%ML3.105064		0	0	0	0	0	0
+DNPSLV_REQTMTAVG	LREAL	VAR_GLOBAL	Request timeouts per minute	%ML3.105072		0	0	0	0	0	0
+DNPSLV_REQFAILAVG	LREAL	VAR_GLOBAL	Request failures per minute	%ML3.105080		0	0	0	0	0	0
+DNPSLV_ONLINETIMESTR	STRING	VAR_GLOBAL	Last connection time in string	%MB3.105088		0	0	0	0	0	0
+DNPSLV_ONLINETIME	UDINT	VAR_GLOBAL	"Last connection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.105224		0	0	0	0	0	0
+DNPSLV_OFFLINETIMESTR	STRING	VAR_GLOBAL	Last disconnection time in string	%MB3.105228		0	0	0	0	0	0
+DNPSLV_OFFLINETIME	UDINT	VAR_GLOBAL	"Last disconnection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.105364		0	0	0	0	0	0
+DNPSLV_EVENTOVFLTIMESTR	STRING	VAR_GLOBAL	Last event overflow time in string	%MB3.105368		0	0	0	0	0	0
+DNPSLV_EVENTOVFLTIME	UDINT	VAR_GLOBAL	"Last event overflow time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.105504		0	0	0	0	0	0
+DNPSLV_OBJ2_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Input events	%MD3.105508		0	0	0	0	0	0
+DNPSLV_OBJ4_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Double-Bit Binary events	%MD3.105512		0	0	0	0	0	0
+DNPSLV_OBJ11_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Events	%MD3.105516		0	0	0	0	0	0
+DNPSLV_OBJ13_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Command Events	%MD3.105520		0	0	0	0	0	0
+DNPSLV_OBJ22_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Counter Events	%MD3.105524		0	0	0	0	0	0
+DNPSLV_OBJ23_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Frozen Counter events	%MD3.105528		0	0	0	0	0	0
+DNPSLV_OBJ32_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Input events	%MD3.105532		0	0	0	0	0	0
+DNPSLV_OBJ42_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output events	%MD3.105536		0	0	0	0	0	0
+DNPSLV_OBJ43_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output Command events	%MD3.105540		0	0	0	0	0	0
+DNPSLV_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of DNP3 slave	%MX3.105544.0		0	0	0	0	0	0
+DNPSLV_COM1_ONLINE	UDINT	VAR_GLOBAL	Connection count	%MD3.105548		0	0	0	0	0	0
+DNPSLV_COM1_OFFLINE	UDINT	VAR_GLOBAL	Disconnection count	%MD3.105552		0	0	0	0	0	0
+DNPSLV_COM1_ASDUTX	UDINT	VAR_GLOBAL	ASDU sent	%MD3.105556		0	0	0	0	0	0
+DNPSLV_COM1_ASDURX	UDINT	VAR_GLOBAL	ASDU received	%MD3.105560		0	0	0	0	0	0
+DNPSLV_COM1_EVENTOVERFL	UDINT	VAR_GLOBAL	Event overflow	%MD3.105564		0	0	0	0	0	0
+DNPSLV_COM1_EVENTTX	UDINT	VAR_GLOBAL	Event sent	%MD3.105568		0	0	0	0	0	0
+DNPSLV_COM1_EVENTCNFM	UDINT	VAR_GLOBAL	Event confirmation	%MD3.105572		0	0	0	0	0	0
+DNPSLV_COM1_REQTMT	UDINT	VAR_GLOBAL	Request timeouts	%MD3.105576		0	0	0	0	0	0
+DNPSLV_COM1_REQFAIL	UDINT	VAR_GLOBAL	Request failures	%MD3.105580		0	0	0	0	0	0
+DNPSLV_COM1_ASDUTXAVG	LREAL	VAR_GLOBAL	ASDU sent per minute	%ML3.105584		0	0	0	0	0	0
+DNPSLV_COM1_ASDURXAVG	LREAL	VAR_GLOBAL	ASDU received per minute	%ML3.105592		0	0	0	0	0	0
+DNPSLV_COM1_EVENTTXAVG	LREAL	VAR_GLOBAL	Event sent per minute	%ML3.105600		0	0	0	0	0	0
+DNPSLV_COM1_EVENTCNFMAVG	LREAL	VAR_GLOBAL	Event confirmation per minute	%ML3.105608		0	0	0	0	0	0
+DNPSLV_COM1_REQTMTAVG	LREAL	VAR_GLOBAL	Request timeouts per minute	%ML3.105616		0	0	0	0	0	0
+DNPSLV_COM1_REQFAILAVG	LREAL	VAR_GLOBAL	Request failures per minute	%ML3.105624		0	0	0	0	0	0
+DNPSLV_COM1_ONLINETIMESTR	STRING	VAR_GLOBAL	Last connection time in string	%MB3.105632		0	0	0	0	0	0
+DNPSLV_COM1_ONLINETIME	UDINT	VAR_GLOBAL	"Last connection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.105768		0	0	0	0	0	0
+DNPSLV_COM1_OFFLINETIMESTR	STRING	VAR_GLOBAL	Last disconnection time in string	%MB3.105772		0	0	0	0	0	0
+DNPSLV_COM1_OFFLINETIME	UDINT	VAR_GLOBAL	"Last disconnection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.105908		0	0	0	0	0	0
+DNPSLV_COM1_EVENTOVERFLTIMESTR	STRING	VAR_GLOBAL	Last event overflow time in string	%MB3.105912		0	0	0	0	0	0
+DNPSLV_COM1_EVENTOVFLTIME	UDINT	VAR_GLOBAL	"Last event overflow time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.106048		0	0	0	0	0	0
+DNPSLV_COM1_OBJ2_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Input events	%MD3.106052		0	0	0	0	0	0
+DNPSLV_COM1_OBJ4_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Double-Bit Binary events	%MD3.106056		0	0	0	0	0	0
+DNPSLV_COM1_OBJ11_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output events	%MD3.106060		0	0	0	0	0	0
+DNPSLV_COM1_OBJ13_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Command events	%MD3.106064		0	0	0	0	0	0
+DNPSLV_COM1_OBJ22_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Counter events	%MD3.106068		0	0	0	0	0	0
+DNPSLV_COM1_OBJ23_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Frozen Counter events	%MD3.106072		0	0	0	0	0	0
+DNPSLV_COM1_OBJ32_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Input events	%MD3.106076		0	0	0	0	0	0
+DNPSLV_COM1_OBJ42_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output events	%MD3.106080		0	0	0	0	0	0
+DNPSLV_COM1_OBJ43_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output Command events	%MD3.106084		0	0	0	0	0	0
+DNPSLV_COM1_RESETSTAT	BOOL	VAR_GLOBAL	Reset statistics of DNP3 slave	%MX3.106088.0		0	0	0	0	0	0
+DNPSLV_COM2_ONLINE	UDINT	VAR_GLOBAL	Connection count	%MD3.106092		0	0	0	0	0	0
+DNPSLV_COM2_OFFLINE	UDINT	VAR_GLOBAL	Disconnection count	%MD3.106096		0	0	0	0	0	0
+DNPSLV_COM2_ASDUTX	UDINT	VAR_GLOBAL	ASDU sent	%MD3.106100		0	0	0	0	0	0
+DNPSLV_COM2_ASDURX	UDINT	VAR_GLOBAL	ASDU received	%MD3.106104		0	0	0	0	0	0
+DNPSLV_COM2_EVENTOVERFL	UDINT	VAR_GLOBAL	Event overflow	%MD3.106108		0	0	0	0	0	0
+DNPSLV_COM2_EVENTTX	UDINT	VAR_GLOBAL	Event sent	%MD3.106112		0	0	0	0	0	0
+DNPSLV_COM2_EVENTCNFM	UDINT	VAR_GLOBAL	Event confirmation	%MD3.106116		0	0	0	0	0	0
+DNPSLV_COM2_REQTMT	UDINT	VAR_GLOBAL	Request timeouts	%MD3.106120		0	0	0	0	0	0
+DNPSLV_COM2_REQFAIL	UDINT	VAR_GLOBAL	Request failures	%MD3.106124		0	0	0	0	0	0
+DNPSLV_COM2_ASDUTXAVG	LREAL	VAR_GLOBAL	ASDU sent per minute	%ML3.106128		0	0	0	0	0	0
+DNPSLV_COM2_ASDURXAVG	LREAL	VAR_GLOBAL	ASDU received per minute	%ML3.106136		0	0	0	0	0	0
+DNPSLV_COM2_EVENTTXAVG	LREAL	VAR_GLOBAL	Event sent per minute	%ML3.106144		0	0	0	0	0	0
+DNPSLV_COM2_EVENTCNFMAVG	LREAL	VAR_GLOBAL	Event confirmation per minute	%ML3.106152		0	0	0	0	0	0
+DNPSLV_COM2_REQTMTAVG	LREAL	VAR_GLOBAL	Request timeouts per minute	%ML3.106160		0	0	0	0	0	0
+DNPSLV_COM2_REQFAILAVG	LREAL	VAR_GLOBAL	Request failures per minute	%ML3.106168		0	0	0	0	0	0
+DNPSLV_COM2_ONLINETIMESTR	STRING	VAR_GLOBAL	Last connection time in string	%MB3.106176		0	0	0	0	0	0
+DNPSLV_COM2_ONLINETIME	UDINT	VAR_GLOBAL	"Last connection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.106312		0	0	0	0	0	0
+DNPSLV_COM2_OFFLINETIMESTR	STRING	VAR_GLOBAL	Last disconnection time in string	%MB3.106316		0	0	0	0	0	0
+DNPSLV_COM2_OFFLINETIME	UDINT	VAR_GLOBAL	"Last disconnection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.106452		0	0	0	0	0	0
+DNPSLV_COM2_EVENTOVERFLTIMESTR	STRING	VAR_GLOBAL	Last event overflow time in string	%MB3.106456		0	0	0	0	0	0
+DNPSLV_COM2_EVENTOVFLTIME	UDINT	VAR_GLOBAL	"Last event overflow time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.106592		0	0	0	0	0	0
+DNPSLV_COM2_OBJ2_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Input events	%MD3.106596		0	0	0	0	0	0
+DNPSLV_COM2_OBJ4_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Double-Bit Binary events	%MD3.106600		0	0	0	0	0	0
+DNPSLV_COM2_OBJ11_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output events	%MD3.106604		0	0	0	0	0	0
+DNPSLV_COM2_OBJ13_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Command events	%MD3.106608		0	0	0	0	0	0
+DNPSLV_COM2_OBJ22_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Counter events	%MD3.106612		0	0	0	0	0	0
+DNPSLV_COM2_OBJ23_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Frozen Counter events	%MD3.106616		0	0	0	0	0	0
+DNPSLV_COM2_OBJ32_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Input events	%MD3.106620		0	0	0	0	0	0
+DNPSLV_COM2_OBJ42_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output events	%MD3.106624		0	0	0	0	0	0
+DNPSLV_COM2_OBJ43_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output Command events	%MD3.106628		0	0	0	0	0	0
+DNPSLV_COM2_RESETSTAT	BOOL	VAR_GLOBAL	Reset statistics of DNP3 slave	%MX3.106632.0		0	0	0	0	0	0
+DNPSLV_COM3_ONLINE	UDINT	VAR_GLOBAL	Connection count	%MD3.106636		0	0	0	0	0	0
+DNPSLV_COM3_OFFLINE	UDINT	VAR_GLOBAL	Disconnection count	%MD3.106640		0	0	0	0	0	0
+DNPSLV_COM3_ASDUTX	UDINT	VAR_GLOBAL	ASDU sent	%MD3.106644		0	0	0	0	0	0
+DNPSLV_COM3_ASDURX	UDINT	VAR_GLOBAL	ASDU received	%MD3.106648		0	0	0	0	0	0
+DNPSLV_COM3_EVENTOVERFL	UDINT	VAR_GLOBAL	Event overflow	%MD3.106652		0	0	0	0	0	0
+DNPSLV_COM3_EVENTTX	UDINT	VAR_GLOBAL	Event sent	%MD3.106656		0	0	0	0	0	0
+DNPSLV_COM3_EVENTCNFM	UDINT	VAR_GLOBAL	Event confirmation	%MD3.106660		0	0	0	0	0	0
+DNPSLV_COM3_REQTMT	UDINT	VAR_GLOBAL	Request timeouts	%MD3.106664		0	0	0	0	0	0
+DNPSLV_COM3_REQFAIL	UDINT	VAR_GLOBAL	Request failures	%MD3.106668		0	0	0	0	0	0
+DNPSLV_COM3_ASDUTXAVG	LREAL	VAR_GLOBAL	ASDU sent per minute	%ML3.106672		0	0	0	0	0	0
+DNPSLV_COM3_ASDURXAVG	LREAL	VAR_GLOBAL	ASDU received per minute	%ML3.106680		0	0	0	0	0	0
+DNPSLV_COM3_EVENTTXAVG	LREAL	VAR_GLOBAL	Event sent per minute	%ML3.106688		0	0	0	0	0	0
+DNPSLV_COM3_EVENTCNFMAVG	LREAL	VAR_GLOBAL	Event confirmation per minute	%ML3.106696		0	0	0	0	0	0
+DNPSLV_COM3_REQTMTAVG	LREAL	VAR_GLOBAL	Request timeouts per minute	%ML3.106704		0	0	0	0	0	0
+DNPSLV_COM3_REQFAILAVG	LREAL	VAR_GLOBAL	Request failures per minute	%ML3.106712		0	0	0	0	0	0
+DNPSLV_COM3_ONLINETIMESTR	STRING	VAR_GLOBAL	Last connection time in string	%MB3.106720		0	0	0	0	0	0
+DNPSLV_COM3_ONLINETIME	UDINT	VAR_GLOBAL	"Last connection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.106856		0	0	0	0	0	0
+DNPSLV_COM3_OFFLINETIMESTR	STRING	VAR_GLOBAL	Last disconnection time in string	%MB3.106860		0	0	0	0	0	0
+DNPSLV_COM3_OFFLINETIME	UDINT	VAR_GLOBAL	"Last disconnection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.106996		0	0	0	0	0	0
+DNPSLV_COM3_EVENTOVERFLTIMESTR	STRING	VAR_GLOBAL	Last event overflow time in string	%MB3.107000		0	0	0	0	0	0
+DNPSLV_COM3_EVENTOVFLTIME	UDINT	VAR_GLOBAL	"Last event overflow time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.107136		0	0	0	0	0	0
+DNPSLV_COM3_OBJ2_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Input events	%MD3.107140		0	0	0	0	0	0
+DNPSLV_COM3_OBJ4_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Double-Bit Binary events	%MD3.107144		0	0	0	0	0	0
+DNPSLV_COM3_OBJ11_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output events	%MD3.107148		0	0	0	0	0	0
+DNPSLV_COM3_OBJ13_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Command events	%MD3.107152		0	0	0	0	0	0
+DNPSLV_COM3_OBJ22_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Counter events	%MD3.107156		0	0	0	0	0	0
+DNPSLV_COM3_OBJ23_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Frozen Counter events	%MD3.107160		0	0	0	0	0	0
+DNPSLV_COM3_OBJ32_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Input events	%MD3.107164		0	0	0	0	0	0
+DNPSLV_COM3_OBJ42_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output events	%MD3.107168		0	0	0	0	0	0
+DNPSLV_COM3_OBJ43_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output Command events	%MD3.107172		0	0	0	0	0	0
+DNPSLV_COM3_RESETSTAT	BOOL	VAR_GLOBAL	Reset statistics of DNP3 slave	%MX3.107176.0		0	0	0	0	0	0
+DNPSLV_COM4_ONLINE	UDINT	VAR_GLOBAL	Connection count	%MD3.107180		0	0	0	0	0	0
+DNPSLV_COM4_OFFLINE	UDINT	VAR_GLOBAL	Disconnection count	%MD3.107184		0	0	0	0	0	0
+DNPSLV_COM4_ASDUTX	UDINT	VAR_GLOBAL	ASDU sent	%MD3.107188		0	0	0	0	0	0
+DNPSLV_COM4_ASDURX	UDINT	VAR_GLOBAL	ASDU received	%MD3.107192		0	0	0	0	0	0
+DNPSLV_COM4_EVENTOVERFL	UDINT	VAR_GLOBAL	Event overflow	%MD3.107196		0	0	0	0	0	0
+DNPSLV_COM4_EVENTTX	UDINT	VAR_GLOBAL	Event sent	%MD3.107200		0	0	0	0	0	0
+DNPSLV_COM4_EVENTCNFM	UDINT	VAR_GLOBAL	Event confirmation	%MD3.107204		0	0	0	0	0	0
+DNPSLV_COM4_REQTMT	UDINT	VAR_GLOBAL	Request timeouts	%MD3.107208		0	0	0	0	0	0
+DNPSLV_COM4_REQFAIL	UDINT	VAR_GLOBAL	Request failures	%MD3.107212		0	0	0	0	0	0
+DNPSLV_COM4_ASDUTXAVG	LREAL	VAR_GLOBAL	ASDU sent per minute	%ML3.107216		0	0	0	0	0	0
+DNPSLV_COM4_ASDURXAVG	LREAL	VAR_GLOBAL	ASDU received per minute	%ML3.107224		0	0	0	0	0	0
+DNPSLV_COM4_EVENTTXAVG	LREAL	VAR_GLOBAL	Event sent per minute	%ML3.107232		0	0	0	0	0	0
+DNPSLV_COM4_EVENTCNFMAVG	LREAL	VAR_GLOBAL	Event confirmation per minute	%ML3.107240		0	0	0	0	0	0
+DNPSLV_COM4_REQTMTAVG	LREAL	VAR_GLOBAL	Request timeouts per minute	%ML3.107248		0	0	0	0	0	0
+DNPSLV_COM4_REQFAILAVG	LREAL	VAR_GLOBAL	Request failures per minute	%ML3.107256		0	0	0	0	0	0
+DNPSLV_COM4_ONLINETIMESTR	STRING	VAR_GLOBAL	Last connection time in string	%MB3.107264		0	0	0	0	0	0
+DNPSLV_COM4_ONLINETIME	UDINT	VAR_GLOBAL	"Last connection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.107400		0	0	0	0	0	0
+DNPSLV_COM4_OFFLINETIMESTR	STRING	VAR_GLOBAL	Last disconnection time in string	%MB3.107404		0	0	0	0	0	0
+DNPSLV_COM4_OFFLINETIME	UDINT	VAR_GLOBAL	"Last disconnection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.107540		0	0	0	0	0	0
+DNPSLV_COM4_EVENTOVERFLTIMESTR	STRING	VAR_GLOBAL	Last event overflow time in string	%MB3.107544		0	0	0	0	0	0
+DNPSLV_COM4_EVENTOVFLTIME	UDINT	VAR_GLOBAL	"Last event overflow time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.107680		0	0	0	0	0	0
+DNPSLV_COM4_OBJ2_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Input events	%MD3.107684		0	0	0	0	0	0
+DNPSLV_COM4_OBJ4_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Double-Bit Binary events	%MD3.107688		0	0	0	0	0	0
+DNPSLV_COM4_OBJ11_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output events	%MD3.107692		0	0	0	0	0	0
+DNPSLV_COM4_OBJ13_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Command events	%MD3.107696		0	0	0	0	0	0
+DNPSLV_COM4_OBJ22_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Counter events	%MD3.107700		0	0	0	0	0	0
+DNPSLV_COM4_OBJ23_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Frozen Counter events	%MD3.107704		0	0	0	0	0	0
+DNPSLV_COM4_OBJ32_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Input events	%MD3.107708		0	0	0	0	0	0
+DNPSLV_COM4_OBJ42_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output events	%MD3.107712		0	0	0	0	0	0
+DNPSLV_COM4_OBJ43_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output Command events	%MD3.107716		0	0	0	0	0	0
+DNPSLV_COM4_RESETSTAT	BOOL	VAR_GLOBAL	Reset statistics of DNP3 slave	%MX3.107720.0		0	0	0	0	0	0
+DNPSLV_ETH1_ONLINE	UDINT	VAR_GLOBAL	Connection count	%MD3.107724		0	0	0	0	0	0
+DNPSLV_ETH1_OFFLINE	UDINT	VAR_GLOBAL	Disconnection count	%MD3.107728		0	0	0	0	0	0
+DNPSLV_ETH1_ASDUTX	UDINT	VAR_GLOBAL	ASDU sent	%MD3.107732		0	0	0	0	0	0
+DNPSLV_ETH1_ASDURX	UDINT	VAR_GLOBAL	ASDU received	%MD3.107736		0	0	0	0	0	0
+DNPSLV_ETH1_EVENTOVERFL	UDINT	VAR_GLOBAL	Event overflow	%MD3.107740		0	0	0	0	0	0
+DNPSLV_ETH1_EVENTTX	UDINT	VAR_GLOBAL	Event sent	%MD3.107744		0	0	0	0	0	0
+DNPSLV_ETH1_EVENTCNFM	UDINT	VAR_GLOBAL	Event confirmation	%MD3.107748		0	0	0	0	0	0
+DNPSLV_ETH1_REQTMT	UDINT	VAR_GLOBAL	Request timeouts	%MD3.107752		0	0	0	0	0	0
+DNPSLV_ETH1_REQFAIL	UDINT	VAR_GLOBAL	Request failures	%MD3.107756		0	0	0	0	0	0
+DNPSLV_ETH1_ASDUTXAVG	LREAL	VAR_GLOBAL	ASDU sent per minute	%ML3.107760		0	0	0	0	0	0
+DNPSLV_ETH1_ASDURXAVG	LREAL	VAR_GLOBAL	ASDU received per minute	%ML3.107768		0	0	0	0	0	0
+DNPSLV_ETH1_EVENTTXAVG	LREAL	VAR_GLOBAL	Event sent per minute	%ML3.107776		0	0	0	0	0	0
+DNPSLV_ETH1_EVENTCNFMAVG	LREAL	VAR_GLOBAL	Event confirmation per minute	%ML3.107784		0	0	0	0	0	0
+DNPSLV_ETH1_REQTMTAVG	LREAL	VAR_GLOBAL	Request timeouts per minute	%ML3.107792		0	0	0	0	0	0
+DNPSLV_ETH1_REQFAILAVG	LREAL	VAR_GLOBAL	Request failures per minute	%ML3.107800		0	0	0	0	0	0
+DNPSLV_ETH1_ONLINETIMESTR	STRING	VAR_GLOBAL	Last connection time in string	%MB3.107808		0	0	0	0	0	0
+DNPSLV_ETH1_ONLINETIME	UDINT	VAR_GLOBAL	"Last connection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.107944		0	0	0	0	0	0
+DNPSLV_ETH1_OFFLINETIMESTR	STRING	VAR_GLOBAL	Last disconnection time in string	%MB3.107948		0	0	0	0	0	0
+DNPSLV_ETH1_OFFLINETIME	UDINT	VAR_GLOBAL	"Last disconnection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.108084		0	0	0	0	0	0
+DNPSLV_ETH1_EVENTOVERFLTIMESTR	STRING	VAR_GLOBAL	Last event overflow time in string	%MB3.108088		0	0	0	0	0	0
+DNPSLV_ETH1_EVENTOVFLTIME	UDINT	VAR_GLOBAL	"Last event overflow time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.108224		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ2_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Input events	%MD3.108228		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ4_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Double-Bit Binary events	%MD3.108232		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ11_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output events	%MD3.108236		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ13_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Command events	%MD3.108240		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ22_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Counter events	%MD3.108244		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ23_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Frozen Counter events	%MD3.108248		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ32_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Input events	%MD3.108252		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ42_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output events	%MD3.108256		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ43_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output Command events	%MD3.108260		0	0	0	0	0	0
+DNPSLV_ETH1_RESETSTAT	BOOL	VAR_GLOBAL	Reset statistics of DNP3 slave	%MX3.108264.0		0	0	0	0	0	0
+DNPSLV_ETH2_ONLINE	UDINT	VAR_GLOBAL	Connection count	%MD3.108268		0	0	0	0	0	0
+DNPSLV_ETH2_OFFLINE	UDINT	VAR_GLOBAL	Disconnection count	%MD3.108272		0	0	0	0	0	0
+DNPSLV_ETH2_ASDUTX	UDINT	VAR_GLOBAL	ASDU sent	%MD3.108276		0	0	0	0	0	0
+DNPSLV_ETH2_ASDURX	UDINT	VAR_GLOBAL	ASDU received	%MD3.108280		0	0	0	0	0	0
+DNPSLV_ETH2_EVENTOVERFL	UDINT	VAR_GLOBAL	Event overflow	%MD3.108284		0	0	0	0	0	0
+DNPSLV_ETH2_EVENTTX	UDINT	VAR_GLOBAL	Event sent	%MD3.108288		0	0	0	0	0	0
+DNPSLV_ETH2_EVENTCNFM	UDINT	VAR_GLOBAL	Event confirmation	%MD3.108292		0	0	0	0	0	0
+DNPSLV_ETH2_REQTMT	UDINT	VAR_GLOBAL	Request timeouts	%MD3.108296		0	0	0	0	0	0
+DNPSLV_ETH2_REQFAIL	UDINT	VAR_GLOBAL	Request failures	%MD3.108300		0	0	0	0	0	0
+DNPSLV_ETH2_ASDUTXAVG	LREAL	VAR_GLOBAL	ASDU sent per minute	%ML3.108304		0	0	0	0	0	0
+DNPSLV_ETH2_ASDURXAVG	LREAL	VAR_GLOBAL	ASDU received per minute	%ML3.108312		0	0	0	0	0	0
+DNPSLV_ETH2_EVENTTXAVG	LREAL	VAR_GLOBAL	Event sent per minute	%ML3.108320		0	0	0	0	0	0
+DNPSLV_ETH2_EVENTCNFMAVG	LREAL	VAR_GLOBAL	Event confirmation per minute	%ML3.108328		0	0	0	0	0	0
+DNPSLV_ETH2_REQTMTAVG	LREAL	VAR_GLOBAL	Request timeouts per minute	%ML3.108336		0	0	0	0	0	0
+DNPSLV_ETH2_REQFAILAVG	LREAL	VAR_GLOBAL	Request failures per minute	%ML3.108344		0	0	0	0	0	0
+DNPSLV_ETH2_ONLINETIMESTR	STRING	VAR_GLOBAL	Last connection time in string	%MB3.108352		0	0	0	0	0	0
+DNPSLV_ETH2_ONLINETIME	UDINT	VAR_GLOBAL	"Last connection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.108488		0	0	0	0	0	0
+DNPSLV_ETH2_OFFLINETIMESTR	STRING	VAR_GLOBAL	Last disconnection time in string	%MB3.108492		0	0	0	0	0	0
+DNPSLV_ETH2_OFFLINETIME	UDINT	VAR_GLOBAL	"Last disconnection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.108628		0	0	0	0	0	0
+DNPSLV_ETH2_EVENTOVERFLTIMESTR	STRING	VAR_GLOBAL	Last event overflow time in string	%MB3.108632		0	0	0	0	0	0
+DNPSLV_ETH2_EVENTOVFLTIME	UDINT	VAR_GLOBAL	"Last event overflow time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.108768		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ2_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Input events	%MD3.108772		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ4_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Double-Bit Binary events	%MD3.108776		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ11_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output events	%MD3.108780		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ13_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Command events	%MD3.108784		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ22_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Counter events	%MD3.108788		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ23_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Frozen Counter events	%MD3.108792		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ32_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Input events	%MD3.108796		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ42_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output events	%MD3.108800		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ43_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output Command events	%MD3.108804		0	0	0	0	0	0
+DNPSLV_ETH2_RESETSTAT	BOOL	VAR_GLOBAL	Reset statistics of DNP3 slave	%MX3.108808.0		0	0	0	0	0	0
+DNPSLV_OBJ111_EVENTCNT	UDINT	VAR_GLOBAL	Unsent String events	%MD3.105544		0	0	0	0	0	0
+DNPSLV_COM1_OBJ111_EVENTCNT	UDINT	VAR_GLOBAL	Unsent String events	%MD3.106096		0	0	0	0	0	0
+DNPSLV_COM2_OBJ111_EVENTCNT	UDINT	VAR_GLOBAL	Unsent String events	%MD3.106648		0	0	0	0	0	0
+DNPSLV_COM3_OBJ111_EVENTCNT	UDINT	VAR_GLOBAL	Unsent String events	%MD3.107200		0	0	0	0	0	0
+DNPSLV_COM4_OBJ111_EVENTCNT	UDINT	VAR_GLOBAL	Unsent String events	%MD3.107752		0	0	0	0	0	0
+DNPSLV_ETH1_OBJ111_EVENTCNT	UDINT	VAR_GLOBAL	Unsent String events	%MD3.108304		0	0	0	0	0	0
+DNPSLV_ETH2_OBJ111_EVENTCNT	UDINT	VAR_GLOBAL	Unsent String events	%MD3.108856		0	0	0	0	0	0
+MBMST_REQ	DINT	VAR_GLOBAL	Requests sent	%MD3.110000		0	0	0	0	0	0
+MBMST_SUCCRSP	DINT	VAR_GLOBAL	Successful responses received	%MD3.110004		0	0	0	0	0	0
+MBMST_TMTRSP	DINT	VAR_GLOBAL	Response timeouts	%MD3.110008		0	0	0	0	0	0
+MBMST_FAILRSP	DINT	VAR_GLOBAL	Response failures	%MD3.110012		0	0	0	0	0	0
+MBMST_REQCNTAVG	LREAL	VAR_GLOBAL	Requests sent per minute	%ML3.110016		0	0	0	0	0	0
+MBMST_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses received per minute	%ML3.110024		0	0	0	0	0	0
+MBMST_TMTRSPAVG	LREAL	VAR_GLOBAL	Response timeouts per minute	%ML3.110032		0	0	0	0	0	0
+MBMST_FAILRSPAVG	LREAL	VAR_GLOBAL	Response failures per minute	%ML3.110040		0	0	0	0	0	0
+MBMST_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests sent per minute	%ML3.110048		0	0	0	0	0	0
+MBMST_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses received per minute	%ML3.110056		0	0	0	0	0	0
+MBMST_MAXTMTRSPAVG	LREAL	VAR_GLOBAL	Maximum response timeouts per minute	%ML3.110064		0	0	0	0	0	0
+MBMST_MAXFAILRSPAVG	LREAL	VAR_GLOBAL	Maximum response failures per minute	%ML3.110072		0	0	0	0	0	0
+MBMST_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus master	%MX3.110080.0		0	0	0	0	0	0
+MBMST_COM1_REQ	DINT	VAR_GLOBAL	Requests sent	%MD3.110084		0	0	0	0	0	0
+MBMST_COM1_SUCCRSP	DINT	VAR_GLOBAL	Successful responses received	%MD3.110088		0	0	0	0	0	0
+MBMST_COM1_TMTRSP	DINT	VAR_GLOBAL	Response timeouts	%MD3.110092		0	0	0	0	0	0
+MBMST_COM1_FAILRSP	DINT	VAR_GLOBAL	Response failures	%MD3.110096		0	0	0	0	0	0
+MBMST_COM1_REQCNTAVG	LREAL	VAR_GLOBAL	Requests sent per minute	%ML3.110104		0	0	0	0	0	0
+MBMST_COM1_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses received per minute	%ML3.110112		0	0	0	0	0	0
+MBMST_COM1_TMTRSPAVG	LREAL	VAR_GLOBAL	Response timeouts per minute	%ML3.110120		0	0	0	0	0	0
+MBMST_COM1_FAILRSPAVG	LREAL	VAR_GLOBAL	Response failures per minute	%ML3.110128		0	0	0	0	0	0
+MBMST_COM1_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests sent per minute	%ML3.110136		0	0	0	0	0	0
+MBMST_COM1_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses received per minute	%ML3.110144		0	0	0	0	0	0
+MBMST_COM1_MAXTMTRSPAVG	LREAL	VAR_GLOBAL	Maximum response timeouts per minute	%ML3.110152		0	0	0	0	0	0
+MBMST_COM1_MAXFAILRSPAVG	LREAL	VAR_GLOBAL	Maximum response failures per minute	%ML3.110160		0	0	0	0	0	0
+MBMST_COM1_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus master	%MX3.110168.0		0	0	0	0	0	0
+MBMST_COM2_REQ	DINT	VAR_GLOBAL	Requests sent	%MD3.110172		0	0	0	0	0	0
+MBMST_COM2_SUCCRSP	DINT	VAR_GLOBAL	Successful responses received	%MD3.110176		0	0	0	0	0	0
+MBMST_COM2_TMTRSP	DINT	VAR_GLOBAL	Response timeouts	%MD3.110180		0	0	0	0	0	0
+MBMST_COM2_FAILRSP	DINT	VAR_GLOBAL	Response failures	%MD3.110184		0	0	0	0	0	0
+MBMST_COM2_REQCNTAVG	LREAL	VAR_GLOBAL	Requests sent per minute	%ML3.110192		0	0	0	0	0	0
+MBMST_COM2_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses received per minute	%ML3.110200		0	0	0	0	0	0
+MBMST_COM2_TMTRSPAVG	LREAL	VAR_GLOBAL	Response timeouts per minute	%ML3.110208		0	0	0	0	0	0
+MBMST_COM2_FAILRSPAVG	LREAL	VAR_GLOBAL	Response failures per minute	%ML3.110216		0	0	0	0	0	0
+MBMST_COM2_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests sent per minute	%ML3.110224		0	0	0	0	0	0
+MBMST_COM2_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses received per minute	%ML3.110232		0	0	0	0	0	0
+MBMST_COM2_MAXTMTRSPAVG	LREAL	VAR_GLOBAL	Maximum response timeouts per minute	%ML3.110240		0	0	0	0	0	0
+MBMST_COM2_MAXFAILRSPAVG	LREAL	VAR_GLOBAL	Maximum response failures per minute	%ML3.110248		0	0	0	0	0	0
+MBMST_COM2_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus master	%MX3.110256.0		0	0	0	0	0	0
+MBMST_COM3_REQ	DINT	VAR_GLOBAL	Requests sent	%MD3.110260		0	0	0	0	0	0
+MBMST_COM3_SUCCRSP	DINT	VAR_GLOBAL	Successful responses received	%MD3.110264		0	0	0	0	0	0
+MBMST_COM3_TMTRSP	DINT	VAR_GLOBAL	Response timeouts	%MD3.110268		0	0	0	0	0	0
+MBMST_COM3_FAILRSP	DINT	VAR_GLOBAL	Response failures	%MD3.110272		0	0	0	0	0	0
+MBMST_COM3_REQCNTAVG	LREAL	VAR_GLOBAL	Requests sent per minute	%ML3.110280		0	0	0	0	0	0
+MBMST_COM3_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses received per minute	%ML3.110288		0	0	0	0	0	0
+MBMST_COM3_TMTRSPAVG	LREAL	VAR_GLOBAL	Response timeouts per minute	%ML3.110296		0	0	0	0	0	0
+MBMST_COM3_FAILRSPAVG	LREAL	VAR_GLOBAL	Response failures per minute	%ML3.110304		0	0	0	0	0	0
+MBMST_COM3_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests sent per minute	%ML3.110312		0	0	0	0	0	0
+MBMST_COM3_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses received per minute	%ML3.110320		0	0	0	0	0	0
+MBMST_COM3_MAXTMTRSPAVG	LREAL	VAR_GLOBAL	Maximum response timeouts per minute	%ML3.110328		0	0	0	0	0	0
+MBMST_COM3_MAXFAILRSPAVG	LREAL	VAR_GLOBAL	Maximum response failures per minute	%ML3.110336		0	0	0	0	0	0
+MBMST_COM3_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus master	%MX3.110344.0		0	0	0	0	0	0
+MBMST_COM4_REQ	DINT	VAR_GLOBAL	Requests sent	%MD3.110348		0	0	0	0	0	0
+MBMST_COM4_SUCCRSP	DINT	VAR_GLOBAL	Successful responses received	%MD3.110352		0	0	0	0	0	0
+MBMST_COM4_TMTRSP	DINT	VAR_GLOBAL	Response timeouts	%MD3.110356		0	0	0	0	0	0
+MBMST_COM4_FAILRSP	DINT	VAR_GLOBAL	Response failures	%MD3.110360		0	0	0	0	0	0
+MBMST_COM4_REQCNTAVG	LREAL	VAR_GLOBAL	Requests sent per minute	%ML3.110368		0	0	0	0	0	0
+MBMST_COM4_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses received per minute	%ML3.110376		0	0	0	0	0	0
+MBMST_COM4_TMTRSPAVG	LREAL	VAR_GLOBAL	Response timeouts per minute	%ML3.110384		0	0	0	0	0	0
+MBMST_COM4_FAILRSPAVG	LREAL	VAR_GLOBAL	Response failures per minute	%ML3.110392		0	0	0	0	0	0
+MBMST_COM4_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests sent per minute	%ML3.110400		0	0	0	0	0	0
+MBMST_COM4_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses received per minute	%ML3.110408		0	0	0	0	0	0
+MBMST_COM4_MAXTMTRSPAVG	LREAL	VAR_GLOBAL	Maximum response timeouts per minute	%ML3.110416		0	0	0	0	0	0
+MBMST_COM4_MAXFAILRSPAVG	LREAL	VAR_GLOBAL	Maximum response failures per minute	%ML3.110424		0	0	0	0	0	0
+MBMST_COM4_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus master	%MX3.110432.0		0	0	0	0	0	0
+MBMST_ETH1_REQ	DINT	VAR_GLOBAL	Requests sent	%MD3.110436		0	0	0	0	0	0
+MBMST_ETH1_SUCCRSP	DINT	VAR_GLOBAL	Successful responses received	%MD3.110440		0	0	0	0	0	0
+MBMST_ETH1_TMTRSP	DINT	VAR_GLOBAL	Response timeouts	%MD3.110444		0	0	0	0	0	0
+MBMST_ETH1_FAILRSP	DINT	VAR_GLOBAL	Response failures	%MD3.110448		0	0	0	0	0	0
+MBMST_ETH1_REQCNTAVG	LREAL	VAR_GLOBAL	Requests sent per minute	%ML3.110456		0	0	0	0	0	0
+MBMST_ETH1_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses received per minute	%ML3.110464		0	0	0	0	0	0
+MBMST_ETH1_TMTRSPAVG	LREAL	VAR_GLOBAL	Response timeouts per minute	%ML3.110472		0	0	0	0	0	0
+MBMST_ETH1_FAILRSPAVG	LREAL	VAR_GLOBAL	Response failures per minute	%ML3.110480		0	0	0	0	0	0
+MBMST_ETH1_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests sent per minute	%ML3.110488		0	0	0	0	0	0
+MBMST_ETH1_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses received per minute	%ML3.110496		0	0	0	0	0	0
+MBMST_ETH1_MAXTMTRSPAVG	LREAL	VAR_GLOBAL	Maximum response timeouts per minute	%ML3.110504		0	0	0	0	0	0
+MBMST_ETH1_MAXFAILRSPAVG	LREAL	VAR_GLOBAL	Maximum response failures per minute	%ML3.110512		0	0	0	0	0	0
+MBMST_ETH1_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus master	%MX3.110520.0		0	0	0	0	0	0
+MBMST_ETH2_REQ	DINT	VAR_GLOBAL	Requests sent	%MD3.110524		0	0	0	0	0	0
+MBMST_ETH2_SUCCRSP	DINT	VAR_GLOBAL	Successful responses received	%MD3.110528		0	0	0	0	0	0
+MBMST_ETH2_TMTRSP	DINT	VAR_GLOBAL	Response timeouts	%MD3.110532		0	0	0	0	0	0
+MBMST_ETH2_FAILRSP	DINT	VAR_GLOBAL	Response failures	%MD3.110536		0	0	0	0	0	0
+MBMST_ETH2_REQCNTAVG	LREAL	VAR_GLOBAL	Requests sent per minute	%ML3.110544		0	0	0	0	0	0
+MBMST_ETH2_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses received per minute	%ML3.110552		0	0	0	0	0	0
+MBMST_ETH2_TMTRSPAVG	LREAL	VAR_GLOBAL	Response timeouts per minute	%ML3.110560		0	0	0	0	0	0
+MBMST_ETH2_FAILRSPAVG	LREAL	VAR_GLOBAL	Response failures per minute	%ML3.110568		0	0	0	0	0	0
+MBMST_ETH2_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests sent per minute	%ML3.110576		0	0	0	0	0	0
+MBMST_ETH2_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses received per minute	%ML3.110584		0	0	0	0	0	0
+MBMST_ETH2_MAXTMTRSPAVG	LREAL	VAR_GLOBAL	Maximum response timeouts per minute	%ML3.110592		0	0	0	0	0	0
+MBMST_ETH2_MAXFAILRSPAVG	LREAL	VAR_GLOBAL	Maximum response failures per minute	%ML3.110600		0	0	0	0	0	0
+MBMST_ETH2_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus master	%MX3.110608.0		0	0	0	0	0	0
+HRTSVR_VALIDFDMREQ	UDINT	VAR_GLOBAL	Valid HART-IP client requests	%MD3.115000		0	0	0	0	0	0
+HRTSVR_INVALIDFDMREQ	UDINT	VAR_GLOBAL	Invalid HART-IP client requests	%MD3.115004		0	0	0	0	0	0
+HRTSVR_CMD3_REQ	UDINT	VAR_GLOBAL	HART function block command 3 requests sent	%MD3.115008		0	0	0	0	0	0
+HRTSVR_CMD3_SUCCRSP	UDINT	VAR_GLOBAL	HART function block command 3 successful responses received	%MD3.115012		0	0	0	0	0	0
+HRTSVR_CMD3_ERRRSP	UDINT	VAR_GLOBAL	HART function block command 3 responses with failure received	%MD3.115016		0	0	0	0	0	0
+HRTSVR_CMD48_REQ	UDINT	VAR_GLOBAL	HART function block command 48 requests sent	%MD3.115020		0	0	0	0	0	0
+HRTSVR_CMD48_SUCCRSP	UDINT	VAR_GLOBAL	HART function block command 48 successful responses received	%MD3.115024		0	0	0	0	0	0
+HRTSVR_CMD48_ERRRSP	UDINT	VAR_GLOBAL	HART function block command 48 responses with failure received	%MD3.115028		0	0	0	0	0	0
+HRTSVR_VALIDFDMREQAVG	LREAL	VAR_GLOBAL	Valid HART-IP client requests sent per minute	%ML3.115032		0	0	0	0	0	0
+HRTSVR_INVALIDFDMREQAVG	LREAL	VAR_GLOBAL	Invalid HART-IP client requests sent per minute	%ML3.115040		0	0	0	0	0	0
+HRTSVR_CMD3_REQAVG	LREAL	VAR_GLOBAL	HART function block command 3 requests sent per minute	%ML3.115048		0	0	0	0	0	0
+HRTSVR_CMD3_SUCCRSPAVG	LREAL	VAR_GLOBAL	HART function block command 3 successful responses received per minute	%ML3.115056		0	0	0	0	0	0
+HRTSVR_CMD3_ERRRSPAVG	LREAL	VAR_GLOBAL	HART function block command 3 responses with failure received per minute	%ML3.115064		0	0	0	0	0	0
+HRTSVR_CMD48_REQAVG	LREAL	VAR_GLOBAL	HART function block command 48 requests sent per minute	%ML3.115072		0	0	0	0	0	0
+HRTSVR_CMD48_SUCCRSPAVG	LREAL	VAR_GLOBAL	HART function block command 48 successful responses received per minute	%ML3.115080		0	0	0	0	0	0
+HRTSVR_CMD48_ERRRSPAVG	LREAL	VAR_GLOBAL	HART function block command 48 responses with failure received per minute	%ML3.115088		0	0	0	0	0	0
+HRTSVR_MAXVALIDREQAVG	LREAL	VAR_GLOBAL	Maximum valid HART-IP client requests sent per minute	%ML3.115096		0	0	0	0	0	0
+HRTSVR_MAXINVLDREQAVG	LREAL	VAR_GLOBAL	Maximum invalid HART-IP client requests sent per minute	%ML3.115104		0	0	0	0	0	0
+HRTSVR_MAXCMD3REQAVG	LREAL	VAR_GLOBAL	Maximum HART function block command 3 requests sent per minute	%ML3.115112		0	0	0	0	0	0
+HRTSVR_MAXCMD3SUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum HART function block command 3 successful responses received per minute	%ML3.115120		0	0	0	0	0	0
+HRTSVR_MAXCMD3ERRRSPAVG	LREAL	VAR_GLOBAL	Maximum HART function block command 3 responses with failure received per minute	%ML3.115128		0	0	0	0	0	0
+HRTSVR_MAXCMD48REQAVG	LREAL	VAR_GLOBAL	Maximum HART function block command 48 requests sent per minute	%ML3.115136		0	0	0	0	0	0
+HRTSVR_MAXCMD48SUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum HART function block command 48 successful responses received per minute	%ML3.115144		0	0	0	0	0	0
+HRTSVR_MAXCMD48ERRRSPAVG	LREAL	VAR_GLOBAL	Maximum HART function block command 48 responses with failure received per minute	%ML3.115152		0	0	0	0	0	0
+HRTSVR_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of HART-IP server	%MX3.115160.0		0	0	0	0	0	0
+HRTSVR_GEN_REQ	UDINT	VAR_GLOBAL	HART function block generic requests sent	%MD3.115032		0	0	0	0	0	0
+HRTSVR_GEN_ERRRSP	UDINT	VAR_GLOBAL	HART function block generic responses with failure received	%MD3.115040		0	0	0	0	0	0
+HRTSVR_GEN_REQAVG	LREAL	VAR_GLOBAL	HART function block generic requests sent per minute	%ML3.115112		0	0	0	0	0	0
+MBSLV_ONLINE	BOOL	VAR_GLOBAL	Communication port online status. TRUE if any communication port enabled with Modbus slave; FALSE if no port enabled.	%MX3.120000.0		0	0	0	0	0	0
+MBSLV_REQ	DINT	VAR_GLOBAL	Requests received	%MD3.120004		0	0	0	0	0	0
+MBSLV_RSP	DINT	VAR_GLOBAL	Responses sent	%MD3.120008		0	0	0	0	0	0
+MBSLV_VALIDREQ	DINT	VAR_GLOBAL	Valid requests received	%MD3.120012		0	0	0	0	0	0
+MBSLV_INVALIDREQ	DINT	VAR_GLOBAL	Invalid requests received	%MD3.120016		0	0	0	0	0	0
+MBSLV_SUCCRSPCNT	DINT	VAR_GLOBAL	Successful responses sent	%MD3.120020		0	0	0	0	0	0
+MBSLV_EXCEPRSPCNT	DINT	VAR_GLOBAL	Exception responses sent	%MD3.120024		0	0	0	0	0	0
+MBSLV_RDDO_REQ	DINT	VAR_GLOBAL	Read Coils requests received	%MD3.120028		0	0	0	0	0	0
+MBSLV_RDDO_RSP	DINT	VAR_GLOBAL	Read Coils responses sent	%MD3.120032		0	0	0	0	0	0
+MBSLV_WRDO_REQ	DINT	VAR_GLOBAL	Write Coils requests received	%MD3.120036		0	0	0	0	0	0
+MBSLV_WRDO_RSP	DINT	VAR_GLOBAL	Write Coils responses sent	%MD3.120040		0	0	0	0	0	0
+MBSLV_RDDI_REQ	DINT	VAR_GLOBAL	Read Discrete Inputs requests received	%MD3.120044		0	0	0	0	0	0
+MBSLV_RDDI_RSP	DINT	VAR_GLOBAL	Read Discrete Inputs responses sent	%MD3.120048		0	0	0	0	0	0
+MBSLV_RDHR_REQ	DINT	VAR_GLOBAL	Read Holding Registers requests received	%MD3.120052		0	0	0	0	0	0
+MBSLV_RDHR_RSP	DINT	VAR_GLOBAL	Read Holding Registers responses sent	%MD3.120056		0	0	0	0	0	0
+MBSLV_WRHR_REQ	DINT	VAR_GLOBAL	Write Holding Registers requests received	%MD3.120060		0	0	0	0	0	0
+MBSLV_WRHR_RSP	DINT	VAR_GLOBAL	Write Holding Registers responses sent	%MD3.120064		0	0	0	0	0	0
+MBSLV_RDIR_REQ	DINT	VAR_GLOBAL	Read Input Registers requests received	%MD3.120068		0	0	0	0	0	0
+MBSLV_RDIR_RSP	DINT	VAR_GLOBAL	Read Input Registers responses sent	%MD3.120072		0	0	0	0	0	0
+MBSLV_REQCNTAVG	LREAL	VAR_GLOBAL	Requests received per minute	%ML3.120080		0	0	0	0	0	0
+MBSLV_RSPCNTAVG	LREAL	VAR_GLOBAL	Responses sent per minute	%ML3.120088		0	0	0	0	0	0
+MBSLV_VALIDREQAVG	LREAL	VAR_GLOBAL	Valid requests received per minute	%ML3.120096		0	0	0	0	0	0
+MBSLV_INVALIDREQAVG	LREAL	VAR_GLOBAL	Invalid requests received per minute	%ML3.120104		0	0	0	0	0	0
+MBSLV_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses sent per minute	%ML3.120112		0	0	0	0	0	0
+MBSLV_EXCEPRSPAVG	LREAL	VAR_GLOBAL	Exception responses sent per minute	%ML3.120120		0	0	0	0	0	0
+MBSLV_RDDOREQAVG	LREAL	VAR_GLOBAL	Read Coils requests received per minute	%ML3.120128		0	0	0	0	0	0
+MBSLV_RDDORSPAVG	LREAL	VAR_GLOBAL	Read Coils responses sent per minute	%ML3.120136		0	0	0	0	0	0
+MBSLV_WRDOREQAVG	LREAL	VAR_GLOBAL	Write Coils requests received per minute	%ML3.120144		0	0	0	0	0	0
+MBSLV_WRDORSPAVG	LREAL	VAR_GLOBAL	Write Coils responses sent per minute	%ML3.120152		0	0	0	0	0	0
+MBSLV_RDDIREQAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs requests received per minute	%ML3.120160		0	0	0	0	0	0
+MBSLV_RDDIRSPAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs responses sent per minute	%ML3.120168		0	0	0	0	0	0
+MBSLV_RDHRREQAVG	LREAL	VAR_GLOBAL	Read Holding Registers requests received per minute	%ML3.120176		0	0	0	0	0	0
+MBSLV_RDHRRSPAVG	LREAL	VAR_GLOBAL	Read Holding Registers responses sent per minute	%ML3.120184		0	0	0	0	0	0
+MBSLV_WRHRREQAVG	LREAL	VAR_GLOBAL	Write Holding Registers requests received per minute	%ML3.120192		0	0	0	0	0	0
+MBSLV_WRHRRSPAVG	LREAL	VAR_GLOBAL	Write Holding Registers responses sent per minute	%ML3.120200		0	0	0	0	0	0
+MBSLV_RDIRREQAVG	LREAL	VAR_GLOBAL	Read Input Registers requests received per minute	%ML3.120208		0	0	0	0	0	0
+MBSLV_RDIRRSPAVG	LREAL	VAR_GLOBAL	Read Input Registers responses sent per minute	%ML3.120216		0	0	0	0	0	0
+MBSLV_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests received per minute	%ML3.120224		0	0	0	0	0	0
+MBSLV_MAXRSPAVG	LREAL	VAR_GLOBAL	Maximum requests received per minute	%ML3.120232		0	0	0	0	0	0
+MBSLV_MAXVALIDREQAVG	LREAL	VAR_GLOBAL	Maximum valid requests received per minute	%ML3.120240		0	0	0	0	0	0
+MBSLV_MAXINVLDREQAVG	LREAL	VAR_GLOBAL	Maximum invalid requests received per minute	%ML3.120248		0	0	0	0	0	0
+MBSLV_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses sent per minute	%ML3.120256		0	0	0	0	0	0
+MBSLV_MAXEXCEPRSPAVG	LREAL	VAR_GLOBAL	Maximum exception responses sent per minute	%ML3.120264		0	0	0	0	0	0
+MBSLV_MAXRDDOREQAVG	LREAL	VAR_GLOBAL	Maximum Read Coils requests received per minute	%ML3.120272		0	0	0	0	0	0
+MBSLV_MAXRDDORSPAVG	LREAL	VAR_GLOBAL	Maximum Read Coils responses sent per minute	%ML3.120280		0	0	0	0	0	0
+MBSLV_MAXWRDOREQAVG	LREAL	VAR_GLOBAL	Maximum Write Coils requests received per minute	%ML3.120288		0	0	0	0	0	0
+MBSLV_MAXWRDORSPAVG	LREAL	VAR_GLOBAL	Maximum Write Coils responses sent per minute	%ML3.120296		0	0	0	0	0	0
+MBSLV_MAXRDDIREQAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs requests received per minute	%ML3.120304		0	0	0	0	0	0
+MBSLV_MAXRDDIRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs responses sent per minute	%ML3.120312		0	0	0	0	0	0
+MBSLV_MAXRDHRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers requests received per minute	%ML3.120320		0	0	0	0	0	0
+MBSLV_MAXRDHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers responses sent per minute	%ML3.120328		0	0	0	0	0	0
+MBSLV_MAXWRHRREQAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers requests received per minute	%ML3.120336		0	0	0	0	0	0
+MBSLV_MAXWRHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers responses sent per minute	%ML3.120344		0	0	0	0	0	0
+MBSLV_MAXRDIRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers requests received per minute	%ML3.120352		0	0	0	0	0	0
+MBSLV_MAXRDIRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers responses sent per minute	%ML3.120360		0	0	0	0	0	0
+MBSLV_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus slave	%MX3.120368.0		0	0	0	0	0	0
+MBSLV_COM1_ONLINE	BOOL	VAR_GLOBAL	Communication port online status. TRUE if this communication port enabled with Modbus slave; FALSE if not enabled.	%MX3.120369.0		0	0	0	0	0	0
+MBSLV_COM1_REQ	DINT	VAR_GLOBAL	Requests received	%MD3.120372		0	0	0	0	0	0
+MBSLV_COM1_RSP	DINT	VAR_GLOBAL	Responses sent	%MD3.120376		0	0	0	0	0	0
+MBSLV_COM1_VALIDREQ	DINT	VAR_GLOBAL	Valid requests received	%MD3.120380		0	0	0	0	0	0
+MBSLV_COM1_INVALIDREQ	DINT	VAR_GLOBAL	Invalid requests received	%MD3.120384		0	0	0	0	0	0
+MBSLV_COM1_SUCCRSPCNT	DINT	VAR_GLOBAL	Successful responses sent	%MD3.120388		0	0	0	0	0	0
+MBSLV_COM1_EXCEPRSPCNT	DINT	VAR_GLOBAL	Exception responses sent	%MD3.120392		0	0	0	0	0	0
+MBSLV_COM1_RDDO_REQ	DINT	VAR_GLOBAL	Read Coils requests received	%MD3.120396		0	0	0	0	0	0
+MBSLV_COM1_RDDO_RSP	DINT	VAR_GLOBAL	Read Coils responses sent	%MD3.120400		0	0	0	0	0	0
+MBSLV_COM1_WRDO_REQ	DINT	VAR_GLOBAL	Write Coils requests received	%MD3.120404		0	0	0	0	0	0
+MBSLV_COM1_WRDO_RSP	DINT	VAR_GLOBAL	Write Coils responses sent	%MD3.120408		0	0	0	0	0	0
+MBSLV_COM1_RDDI_REQ	DINT	VAR_GLOBAL	Read Discrete Inputs requests received	%MD3.120412		0	0	0	0	0	0
+MBSLV_COM1_RDDI_RSP	DINT	VAR_GLOBAL	Read Discrete Inputs responses sent	%MD3.120416		0	0	0	0	0	0
+MBSLV_COM1_RDHR_REQ	DINT	VAR_GLOBAL	Read Holding Registers requests received	%MD3.120420		0	0	0	0	0	0
+MBSLV_COM1_RDHR_RSP	DINT	VAR_GLOBAL	Read Holding Registers responses sent	%MD3.120424		0	0	0	0	0	0
+MBSLV_COM1_WRHR_REQ	DINT	VAR_GLOBAL	Write Holding Registers requests received	%MD3.120428		0	0	0	0	0	0
+MBSLV_COM1_WRHR_RSP	DINT	VAR_GLOBAL	Write Holding Registers responses sent	%MD3.120432		0	0	0	0	0	0
+MBSLV_COM1_RDIR_REQ	DINT	VAR_GLOBAL	Read Input Registers requests received	%MD3.120436		0	0	0	0	0	0
+MBSLV_COM1_RDIR_RSP	DINT	VAR_GLOBAL	Read Input Registers responses sent	%MD3.120440		0	0	0	0	0	0
+MBSLV_COM1_REQCNTAVG	LREAL	VAR_GLOBAL	Requests received per minute	%ML3.120448		0	0	0	0	0	0
+MBSLV_COM1_RSPCNTAVG	LREAL	VAR_GLOBAL	Responses sent per minute	%ML3.120456		0	0	0	0	0	0
+MBSLV_COM1_VALIDREQAVG	LREAL	VAR_GLOBAL	Valid requests received per minute	%ML3.120464		0	0	0	0	0	0
+MBSLV_COM1_INVALIDREQAVG	LREAL	VAR_GLOBAL	Invalid requests received per minute	%ML3.120472		0	0	0	0	0	0
+MBSLV_COM1_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses sent per minute	%ML3.120480		0	0	0	0	0	0
+MBSLV_COM1_EXCEPRSPAVG	LREAL	VAR_GLOBAL	Exception responses sent per minute	%ML3.120488		0	0	0	0	0	0
+MBSLV_COM1_RDDOREQAVG	LREAL	VAR_GLOBAL	Read Coils requests received per minute	%ML3.120496		0	0	0	0	0	0
+MBSLV_COM1_RDDORSPAVG	LREAL	VAR_GLOBAL	Read Coils responses sent per minute	%ML3.120504		0	0	0	0	0	0
+MBSLV_COM1_WRDOREQAVG	LREAL	VAR_GLOBAL	Write Coils requests received per minute	%ML3.120512		0	0	0	0	0	0
+MBSLV_COM1_WRDORSPAVG	LREAL	VAR_GLOBAL	Write Coils responses sent per minute	%ML3.120520		0	0	0	0	0	0
+MBSLV_COM1_RDDIREQAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs requests received per minute	%ML3.120528		0	0	0	0	0	0
+MBSLV_COM1_RDDIRSPAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs responses sent per minute	%ML3.120536		0	0	0	0	0	0
+MBSLV_COM1_RDHRREQAVG	LREAL	VAR_GLOBAL	Read Holding Registers requests received per minute	%ML3.120544		0	0	0	0	0	0
+MBSLV_COM1_RDHRRSPAVG	LREAL	VAR_GLOBAL	Read Holding Registers responses sent per minute	%ML3.120552		0	0	0	0	0	0
+MBSLV_COM1_WRHRREQAVG	LREAL	VAR_GLOBAL	Write Holding Registers requests received per minute	%ML3.120560		0	0	0	0	0	0
+MBSLV_COM1_WRHRRSPAVG	LREAL	VAR_GLOBAL	Write Holding Registers responses sent per minute	%ML3.120568		0	0	0	0	0	0
+MBSLV_COM1_RDIRREQAVG	LREAL	VAR_GLOBAL	Read Input Registers requests received per minute	%ML3.120576		0	0	0	0	0	0
+MBSLV_COM1_RDIRRSPAVG	LREAL	VAR_GLOBAL	Read Input Registers responses sent per minute	%ML3.120584		0	0	0	0	0	0
+MBSLV_COM1_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests received per minute	%ML3.120592		0	0	0	0	0	0
+MBSLV_COM1_MAXRSPAVG	LREAL	VAR_GLOBAL	Maximum responses sent per minute	%ML3.120600		0	0	0	0	0	0
+MBSLV_COM1_MAXVALIDREQAVG	LREAL	VAR_GLOBAL	Maximum valid requests received per minute	%ML3.120608		0	0	0	0	0	0
+MBSLV_COM1_MAXINVLDREQAVG	LREAL	VAR_GLOBAL	Maximum invalid requests received per minute	%ML3.120616		0	0	0	0	0	0
+MBSLV_COM1_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses sent per minute	%ML3.120624		0	0	0	0	0	0
+MBSLV_COM1_MAXEXCEPRSPAVG	LREAL	VAR_GLOBAL	Maximum exception responses sent per minute	%ML3.120632		0	0	0	0	0	0
+MBSLV_COM1_MAXRDDOREQAVG	LREAL	VAR_GLOBAL	Maximum Read Coils requests received per minute	%ML3.120640		0	0	0	0	0	0
+MBSLV_COM1_MAXRDDORSPAVG	LREAL	VAR_GLOBAL	Maximum Read Coils responses sent per minute	%ML3.120648		0	0	0	0	0	0
+MBSLV_COM1_MAXWRDOREQAVG	LREAL	VAR_GLOBAL	Maximum Write Coils requests received per minute	%ML3.120656		0	0	0	0	0	0
+MBSLV_COM1_MAXWRDORSPAVG	LREAL	VAR_GLOBAL	Maximum Write Coils responses sent per minute	%ML3.120664		0	0	0	0	0	0
+MBSLV_COM1_MAXRDDIREQAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs requests received per minute	%ML3.120672		0	0	0	0	0	0
+MBSLV_COM1_MAXRDDIRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs responses sent per minute	%ML3.120680		0	0	0	0	0	0
+MBSLV_COM1_MAXRDHRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers requests received per minute	%ML3.120688		0	0	0	0	0	0
+MBSLV_COM1_MAXRDHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers responses sent per minute	%ML3.120696		0	0	0	0	0	0
+MBSLV_COM1_MAXWRHRREQAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers requests received per minute	%ML3.120704		0	0	0	0	0	0
+MBSLV_COM1_MAXWRHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers responses sent per minute	%ML3.120712		0	0	0	0	0	0
+MBSLV_COM1_MAXRDIRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers requests received per minute	%ML3.120720		0	0	0	0	0	0
+MBSLV_COM1_MAXRDIRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers responses sent per minute	%ML3.120728		0	0	0	0	0	0
+MBSLV_COM1_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus slave	%MX3.120736.0		0	0	0	0	0	0
+MBSLV_COM2_ONLINE	BOOL	VAR_GLOBAL	Communication port online status. TRUE if this communication port enabled with Modbus slave; FALSE if not enabled.	%MX3.120737.0		0	0	0	0	0	0
+MBSLV_COM2_REQ	DINT	VAR_GLOBAL	Requests received	%MD3.120740		0	0	0	0	0	0
+MBSLV_COM2_RSP	DINT	VAR_GLOBAL	Responses sent	%MD3.120744		0	0	0	0	0	0
+MBSLV_COM2_VALIDREQ	DINT	VAR_GLOBAL	Valid requests received	%MD3.120748		0	0	0	0	0	0
+MBSLV_COM2_INVALIDREQ	DINT	VAR_GLOBAL	Invalid requests received	%MD3.120752		0	0	0	0	0	0
+MBSLV_COM2_SUCCRSPCNT	DINT	VAR_GLOBAL	Successful responses sent	%MD3.120756		0	0	0	0	0	0
+MBSLV_COM2_EXCEPRSPCNT	DINT	VAR_GLOBAL	Exception responses sent	%MD3.120760		0	0	0	0	0	0
+MBSLV_COM2_RDDO_REQ	DINT	VAR_GLOBAL	Read Coils requests received	%MD3.120764		0	0	0	0	0	0
+MBSLV_COM2_RDDO_RSP	DINT	VAR_GLOBAL	Read Coils responses sent	%MD3.120768		0	0	0	0	0	0
+MBSLV_COM2_WRDO_REQ	DINT	VAR_GLOBAL	Write Coils requests received	%MD3.120772		0	0	0	0	0	0
+MBSLV_COM2_WRDO_RSP	DINT	VAR_GLOBAL	Write Coils responses sent	%MD3.120776		0	0	0	0	0	0
+MBSLV_COM2_RDDI_REQ	DINT	VAR_GLOBAL	Read Discrete Inputs requests received	%MD3.120780		0	0	0	0	0	0
+MBSLV_COM2_RDDI_RSP	DINT	VAR_GLOBAL	Read Discrete Inputs responses sent	%MD3.120784		0	0	0	0	0	0
+MBSLV_COM2_RDHR_REQ	DINT	VAR_GLOBAL	Read Holding Registers requests received	%MD3.120788		0	0	0	0	0	0
+MBSLV_COM2_RDHR_RSP	DINT	VAR_GLOBAL	Read Holding Registers responses sent	%MD3.120792		0	0	0	0	0	0
+MBSLV_COM2_WRHR_REQ	DINT	VAR_GLOBAL	Write Holding Registers requests received	%MD3.120796		0	0	0	0	0	0
+MBSLV_COM2_WRHR_RSP	DINT	VAR_GLOBAL	Write Holding Registers responses sent	%MD3.120800		0	0	0	0	0	0
+MBSLV_COM2_RDIR_REQ	DINT	VAR_GLOBAL	Read Input Registers requests received	%MD3.120804		0	0	0	0	0	0
+MBSLV_COM2_RDIR_RSP	DINT	VAR_GLOBAL	Read Input Registers responses sent	%MD3.120808		0	0	0	0	0	0
+MBSLV_COM2_REQCNTAVG	LREAL	VAR_GLOBAL	Requests received per minute	%ML3.120816		0	0	0	0	0	0
+MBSLV_COM2_RSPCNTAVG	LREAL	VAR_GLOBAL	Responses sent per minute	%ML3.120824		0	0	0	0	0	0
+MBSLV_COM2_VALIDREQAVG	LREAL	VAR_GLOBAL	Valid requests received per minute	%ML3.120832		0	0	0	0	0	0
+MBSLV_COM2_INVALIDREQAVG	LREAL	VAR_GLOBAL	Invalid requests received per minute	%ML3.120840		0	0	0	0	0	0
+MBSLV_COM2_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses sent per minute	%ML3.120848		0	0	0	0	0	0
+MBSLV_COM2_EXCEPRSPAVG	LREAL	VAR_GLOBAL	Exception responses sent per minute	%ML3.120856		0	0	0	0	0	0
+MBSLV_COM2_RDDOREQAVG	LREAL	VAR_GLOBAL	Read Coils requests received per minute	%ML3.120864		0	0	0	0	0	0
+MBSLV_COM2_RDDORSPAVG	LREAL	VAR_GLOBAL	Read Coils responses sent per minute	%ML3.120872		0	0	0	0	0	0
+MBSLV_COM2_WRDOREQAVG	LREAL	VAR_GLOBAL	Write Coils requests received per minute	%ML3.120880		0	0	0	0	0	0
+MBSLV_COM2_WRDORSPAVG	LREAL	VAR_GLOBAL	Write Coils responses sent per minute	%ML3.120888		0	0	0	0	0	0
+MBSLV_COM2_RDDIREQAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs requests received per minute	%ML3.120896		0	0	0	0	0	0
+MBSLV_COM2_RDDIRSPAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs responses sent per minute	%ML3.120904		0	0	0	0	0	0
+MBSLV_COM2_RDHRREQAVG	LREAL	VAR_GLOBAL	Read Holding Registers requests received per minute	%ML3.120912		0	0	0	0	0	0
+MBSLV_COM2_RDHRRSPAVG	LREAL	VAR_GLOBAL	Read Holding Registers responses sent per minute	%ML3.120920		0	0	0	0	0	0
+MBSLV_COM2_WRHRREQAVG	LREAL	VAR_GLOBAL	Write Holding Registers requests received per minute	%ML3.120928		0	0	0	0	0	0
+MBSLV_COM2_WRHRRSPAVG	LREAL	VAR_GLOBAL	Write Holding Registers responses sent per minute	%ML3.120936		0	0	0	0	0	0
+MBSLV_COM2_RDIRREQAVG	LREAL	VAR_GLOBAL	Read Input Registers requests received per minute	%ML3.120944		0	0	0	0	0	0
+MBSLV_COM2_RDIRRSPAVG	LREAL	VAR_GLOBAL	Read Input Registers responses sent per minute	%ML3.120952		0	0	0	0	0	0
+MBSLV_COM2_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests received per minute	%ML3.120960		0	0	0	0	0	0
+MBSLV_COM2_MAXRSPAVG	LREAL	VAR_GLOBAL	Maximum responses sent per minute	%ML3.120968		0	0	0	0	0	0
+MBSLV_COM2_MAXVALIDREQAVG	LREAL	VAR_GLOBAL	Maximum valid requests received per minute	%ML3.120976		0	0	0	0	0	0
+MBSLV_COM2_MAXINVLDREQAVG	LREAL	VAR_GLOBAL	Maximum invalid requests received per minute	%ML3.120984		0	0	0	0	0	0
+MBSLV_COM2_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses sent per minute	%ML3.120992		0	0	0	0	0	0
+MBSLV_COM2_MAXEXCEPRSPAVG	LREAL	VAR_GLOBAL	Maximum exception responses sent per minute	%ML3.121000		0	0	0	0	0	0
+MBSLV_COM2_MAXRDDOREQAVG	LREAL	VAR_GLOBAL	Maximum Read Coils requests received per minute	%ML3.121008		0	0	0	0	0	0
+MBSLV_COM2_MAXRDDORSPAVG	LREAL	VAR_GLOBAL	Maximum Read Coils responses sent per minute	%ML3.121016		0	0	0	0	0	0
+MBSLV_COM2_MAXWRDOREQAVG	LREAL	VAR_GLOBAL	Maximum Write Coils requests received per minute	%ML3.121024		0	0	0	0	0	0
+MBSLV_COM2_MAXWRDORSPAVG	LREAL	VAR_GLOBAL	Maximum Write Coils responses sent per minute	%ML3.121032		0	0	0	0	0	0
+MBSLV_COM2_MAXRDDIREQAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs requests received per minute	%ML3.121040		0	0	0	0	0	0
+MBSLV_COM2_MAXRDDIRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs responses sent per minute	%ML3.121048		0	0	0	0	0	0
+MBSLV_COM2_MAXRDHRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers requests received per minute	%ML3.121056		0	0	0	0	0	0
+MBSLV_COM2_MAXRDHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers responses sent per minute	%ML3.121064		0	0	0	0	0	0
+MBSLV_COM2_MAXWRHRREQAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers requests received per minute	%ML3.121072		0	0	0	0	0	0
+MBSLV_COM2_MAXWRHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers responses sent per minute	%ML3.121080		0	0	0	0	0	0
+MBSLV_COM2_MAXRDIRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers requests received per minute	%ML3.121088		0	0	0	0	0	0
+MBSLV_COM2_MAXRDIRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers responses sent per minute	%ML3.121096		0	0	0	0	0	0
+MBSLV_COM2_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus slave	%MX3.121104.0		0	0	0	0	0	0
+MBSLV_COM3_ONLINE	BOOL	VAR_GLOBAL	Communication port online status. TRUE if this communication port enabled with Modbus slave; FALSE if not enabled.	%MX3.121105.0		0	0	0	0	0	0
+MBSLV_COM3_REQ	DINT	VAR_GLOBAL	Requests received	%MD3.121108		0	0	0	0	0	0
+MBSLV_COM3_RSP	DINT	VAR_GLOBAL	Responses sent	%MD3.121112		0	0	0	0	0	0
+MBSLV_COM3_VALIDREQ	DINT	VAR_GLOBAL	Valid requests received	%MD3.121116		0	0	0	0	0	0
+MBSLV_COM3_INVALIDREQ	DINT	VAR_GLOBAL	Invalid requests received	%MD3.121120		0	0	0	0	0	0
+MBSLV_COM3_SUCCRSPCNT	DINT	VAR_GLOBAL	Successful responses sent	%MD3.121124		0	0	0	0	0	0
+MBSLV_COM3_EXCEPRSPCNT	DINT	VAR_GLOBAL	Exception responses sent	%MD3.121128		0	0	0	0	0	0
+MBSLV_COM3_RDDO_REQ	DINT	VAR_GLOBAL	Read Coils requests received	%MD3.121132		0	0	0	0	0	0
+MBSLV_COM3_RDDO_RSP	DINT	VAR_GLOBAL	Read Coils responses sent	%MD3.121136		0	0	0	0	0	0
+MBSLV_COM3_WRDO_REQ	DINT	VAR_GLOBAL	Write Coils requests received	%MD3.121140		0	0	0	0	0	0
+MBSLV_COM3_WRDO_RSP	DINT	VAR_GLOBAL	Write Coils responses sent	%MD3.121144		0	0	0	0	0	0
+MBSLV_COM3_RDDI_REQ	DINT	VAR_GLOBAL	Read Discrete Inputs requests received	%MD3.121148		0	0	0	0	0	0
+MBSLV_COM3_RDDI_RSP	DINT	VAR_GLOBAL	Read Discrete Inputs responses sent	%MD3.121152		0	0	0	0	0	0
+MBSLV_COM3_RDHR_REQ	DINT	VAR_GLOBAL	Read Holding Registers requests received	%MD3.121156		0	0	0	0	0	0
+MBSLV_COM3_RDHR_RSP	DINT	VAR_GLOBAL	Read Holding Registers responses sent	%MD3.121160		0	0	0	0	0	0
+MBSLV_COM3_WRHR_REQ	DINT	VAR_GLOBAL	Write Holding Registers requests received	%MD3.121164		0	0	0	0	0	0
+MBSLV_COM3_WRHR_RSP	DINT	VAR_GLOBAL	Write Holding Registers responses sent	%MD3.121168		0	0	0	0	0	0
+MBSLV_COM3_RDIR_REQ	DINT	VAR_GLOBAL	Read Input Registers requests received	%MD3.121172		0	0	0	0	0	0
+MBSLV_COM3_RDIR_RSP	DINT	VAR_GLOBAL	Read Input Registers responses sent	%MD3.121176		0	0	0	0	0	0
+MBSLV_COM3_REQCNTAVG	LREAL	VAR_GLOBAL	Requests received per minute	%ML3.121184		0	0	0	0	0	0
+MBSLV_COM3_RSPCNTAVG	LREAL	VAR_GLOBAL	Responses sent per minute	%ML3.121192		0	0	0	0	0	0
+MBSLV_COM3_VALIDREQAVG	LREAL	VAR_GLOBAL	Valid requests received per minute	%ML3.121200		0	0	0	0	0	0
+MBSLV_COM3_INVALIDREQAVG	LREAL	VAR_GLOBAL	Invalid requests received per minute	%ML3.121208		0	0	0	0	0	0
+MBSLV_COM3_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses sent per minute	%ML3.121216		0	0	0	0	0	0
+MBSLV_COM3_EXCEPRSPAVG	LREAL	VAR_GLOBAL	Exception responses sent per minute	%ML3.121224		0	0	0	0	0	0
+MBSLV_COM3_RDDOREQAVG	LREAL	VAR_GLOBAL	Read Coils requests received per minute	%ML3.121232		0	0	0	0	0	0
+MBSLV_COM3_RDDORSPAVG	LREAL	VAR_GLOBAL	Read Coils responses sent per minute	%ML3.121240		0	0	0	0	0	0
+MBSLV_COM3_WRDOREQAVG	LREAL	VAR_GLOBAL	Write Coils requests received per minute	%ML3.121248		0	0	0	0	0	0
+MBSLV_COM3_WRDORSPAVG	LREAL	VAR_GLOBAL	Write Coils responses sent per minute	%ML3.121256		0	0	0	0	0	0
+MBSLV_COM3_RDDIREQAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs requests received per minute	%ML3.121264		0	0	0	0	0	0
+MBSLV_COM3_RDDIRSPAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs responses sent per minute	%ML3.121272		0	0	0	0	0	0
+MBSLV_COM3_RDHRREQAVG	LREAL	VAR_GLOBAL	Read Holding Registers requests received per minute	%ML3.121280		0	0	0	0	0	0
+MBSLV_COM3_RDHRRSPAVG	LREAL	VAR_GLOBAL	Read Holding Registers responses sent per minute	%ML3.121288		0	0	0	0	0	0
+MBSLV_COM3_WRHRREQAVG	LREAL	VAR_GLOBAL	Write Holding Registers requests received per minute	%ML3.121296		0	0	0	0	0	0
+MBSLV_COM3_WRHRRSPAVG	LREAL	VAR_GLOBAL	Write Holding Registers responses sent per minute	%ML3.121304		0	0	0	0	0	0
+MBSLV_COM3_RDIRREQAVG	LREAL	VAR_GLOBAL	Read Input Registers requests received per minute	%ML3.121312		0	0	0	0	0	0
+MBSLV_COM3_RDIRRSPAVG	LREAL	VAR_GLOBAL	Read Input Registers responses sent per minute	%ML3.121320		0	0	0	0	0	0
+MBSLV_COM3_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests received per minute	%ML3.121328		0	0	0	0	0	0
+MBSLV_COM3_MAXRSPAVG	LREAL	VAR_GLOBAL	Maximum responses sent per minute	%ML3.121336		0	0	0	0	0	0
+MBSLV_COM3_MAXVALIDREQAVG	LREAL	VAR_GLOBAL	Maximum valid requests received per minute	%ML3.121344		0	0	0	0	0	0
+MBSLV_COM3_MAXINVLDREQAVG	LREAL	VAR_GLOBAL	Maximum invalid requests received per minute	%ML3.121352		0	0	0	0	0	0
+MBSLV_COM3_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses sent per minute	%ML3.121360		0	0	0	0	0	0
+MBSLV_COM3_MAXEXCEPRSPAVG	LREAL	VAR_GLOBAL	Maximum exception responses sent per minute	%ML3.121368		0	0	0	0	0	0
+MBSLV_COM3_MAXRDDOREQAVG	LREAL	VAR_GLOBAL	Maximum Read Coils requests received per minute	%ML3.121376		0	0	0	0	0	0
+MBSLV_COM3_MAXRDDORSPAVG	LREAL	VAR_GLOBAL	Maximum Read Coils responses sent per minute	%ML3.121384		0	0	0	0	0	0
+MBSLV_COM3_MAXWRDOREQAVG	LREAL	VAR_GLOBAL	Maximum Write Coils requests received per minute	%ML3.121392		0	0	0	0	0	0
+MBSLV_COM3_MAXWRDORSPAVG	LREAL	VAR_GLOBAL	Maximum Write Coils responses sent per minute	%ML3.121400		0	0	0	0	0	0
+MBSLV_COM3_MAXRDDIREQAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs requests received per minute	%ML3.121408		0	0	0	0	0	0
+MBSLV_COM3_MAXRDDIRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs responses sent per minute	%ML3.121416		0	0	0	0	0	0
+MBSLV_COM3_MAXRDHRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers requests received per minute	%ML3.121424		0	0	0	0	0	0
+MBSLV_COM3_MAXRDHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers responses sent per minute	%ML3.121432		0	0	0	0	0	0
+MBSLV_COM3_MAXWRHRREQAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers requests received per minute	%ML3.121440		0	0	0	0	0	0
+MBSLV_COM3_MAXWRHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers responses sent per minute	%ML3.121448		0	0	0	0	0	0
+MBSLV_COM3_MAXRDIRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers requests received per minute	%ML3.121456		0	0	0	0	0	0
+MBSLV_COM3_MAXRDIRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers responses sent per minute	%ML3.121464		0	0	0	0	0	0
+MBSLV_COM3_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus slave	%MX3.121472.0		0	0	0	0	0	0
+MBSLV_COM4_ONLINE	BOOL	VAR_GLOBAL	Communication port online status. TRUE if this communication port enabled with Modbus slave; FALSE if not enabled.	%MX3.121473.0		0	0	0	0	0	0
+MBSLV_COM4_REQ	DINT	VAR_GLOBAL	Requests received	%MD3.121476		0	0	0	0	0	0
+MBSLV_COM4_RSP	DINT	VAR_GLOBAL	Responses sent	%MD3.121480		0	0	0	0	0	0
+MBSLV_COM4_VALIDREQ	DINT	VAR_GLOBAL	Valid requests received	%MD3.121484		0	0	0	0	0	0
+MBSLV_COM4_INVALIDREQ	DINT	VAR_GLOBAL	Invalid requests received	%MD3.121488		0	0	0	0	0	0
+MBSLV_COM4_SUCCRSPCNT	DINT	VAR_GLOBAL	Successful responses sent	%MD3.121492		0	0	0	0	0	0
+MBSLV_COM4_EXCEPRSPCNT	DINT	VAR_GLOBAL	Exception responses sent	%MD3.121496		0	0	0	0	0	0
+MBSLV_COM4_RDDO_REQ	DINT	VAR_GLOBAL	Read Coils requests received	%MD3.121500		0	0	0	0	0	0
+MBSLV_COM4_RDDO_RSP	DINT	VAR_GLOBAL	Read Coils responses sent	%MD3.121504		0	0	0	0	0	0
+MBSLV_COM4_WRDO_REQ	DINT	VAR_GLOBAL	Write Coils requests received	%MD3.121508		0	0	0	0	0	0
+MBSLV_COM4_WRDO_RSP	DINT	VAR_GLOBAL	Write Coils responses sent	%MD3.121512		0	0	0	0	0	0
+MBSLV_COM4_RDDI_REQ	DINT	VAR_GLOBAL	Read Discrete Inputs requests received	%MD3.121516		0	0	0	0	0	0
+MBSLV_COM4_RDDI_RSP	DINT	VAR_GLOBAL	Read Discrete Inputs responses sent	%MD3.121520		0	0	0	0	0	0
+MBSLV_COM4_RDHR_REQ	DINT	VAR_GLOBAL	Read Holding Registers requests received	%MD3.121524		0	0	0	0	0	0
+MBSLV_COM4_RDHR_RSP	DINT	VAR_GLOBAL	Read Holding Registers responses sent	%MD3.121528		0	0	0	0	0	0
+MBSLV_COM4_WRHR_REQ	DINT	VAR_GLOBAL	Write Holding Registers requests received	%MD3.121532		0	0	0	0	0	0
+MBSLV_COM4_WRHR_RSP	DINT	VAR_GLOBAL	Write Holding Registers responses sent	%MD3.121536		0	0	0	0	0	0
+MBSLV_COM4_RDIR_REQ	DINT	VAR_GLOBAL	Read Input Registers requests received	%MD3.121540		0	0	0	0	0	0
+MBSLV_COM4_RDIR_RSP	DINT	VAR_GLOBAL	Read Input Registers responses sent	%MD3.121544		0	0	0	0	0	0
+MBSLV_COM4_REQCNTAVG	LREAL	VAR_GLOBAL	Requests received per minute	%ML3.121552		0	0	0	0	0	0
+MBSLV_COM4_RSPCNTAVG	LREAL	VAR_GLOBAL	Responses sent per minute	%ML3.121560		0	0	0	0	0	0
+MBSLV_COM4_VALIDREQAVG	LREAL	VAR_GLOBAL	Valid requests received per minute	%ML3.121568		0	0	0	0	0	0
+MBSLV_COM4_INVALIDREQAVG	LREAL	VAR_GLOBAL	Invalid requests received per minute	%ML3.121576		0	0	0	0	0	0
+MBSLV_COM4_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses sent per minute	%ML3.121584		0	0	0	0	0	0
+MBSLV_COM4_EXCEPRSPAVG	LREAL	VAR_GLOBAL	Exception responses sent per minute	%ML3.121592		0	0	0	0	0	0
+MBSLV_COM4_RDDOREQAVG	LREAL	VAR_GLOBAL	Read Coils requests received per minute	%ML3.121600		0	0	0	0	0	0
+MBSLV_COM4_RDDORSPAVG	LREAL	VAR_GLOBAL	Read Coils responses sent per minute	%ML3.121608		0	0	0	0	0	0
+MBSLV_COM4_WRDOREQAVG	LREAL	VAR_GLOBAL	Write Coils requests received per minute	%ML3.121616		0	0	0	0	0	0
+MBSLV_COM4_WRDORSPAVG	LREAL	VAR_GLOBAL	Write Coils responses sent per minute	%ML3.121624		0	0	0	0	0	0
+MBSLV_COM4_RDDIREQAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs requests received per minute	%ML3.121632		0	0	0	0	0	0
+MBSLV_COM4_RDDIRSPAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs responses sent per minute	%ML3.121640		0	0	0	0	0	0
+MBSLV_COM4_RDHRREQAVG	LREAL	VAR_GLOBAL	Read Holding Registers requests received per minute	%ML3.121648		0	0	0	0	0	0
+MBSLV_COM4_RDHRRSPAVG	LREAL	VAR_GLOBAL	Read Holding Registers responses sent per minute	%ML3.121656		0	0	0	0	0	0
+MBSLV_COM4_WRHRREQAVG	LREAL	VAR_GLOBAL	Write Holding Registers requests received per minute	%ML3.121664		0	0	0	0	0	0
+MBSLV_COM4_WRHRRSPAVG	LREAL	VAR_GLOBAL	Write Holding Registers responses sent per minute	%ML3.121672		0	0	0	0	0	0
+MBSLV_COM4_RDIRREQAVG	LREAL	VAR_GLOBAL	Read Input Registers requests received per minute	%ML3.121680		0	0	0	0	0	0
+MBSLV_COM4_RDIRRSPAVG	LREAL	VAR_GLOBAL	Read Input Registers responses sent per minute	%ML3.121688		0	0	0	0	0	0
+MBSLV_COM4_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests received per minute	%ML3.121696		0	0	0	0	0	0
+MBSLV_COM4_MAXRSPAVG	LREAL	VAR_GLOBAL	Maximum responses sent per minute	%ML3.121704		0	0	0	0	0	0
+MBSLV_COM4_MAXVALIDREQAVG	LREAL	VAR_GLOBAL	Maximum valid requests received per minute	%ML3.121712		0	0	0	0	0	0
+MBSLV_COM4_MAXINVLDREQAVG	LREAL	VAR_GLOBAL	Maximum invalid requests received per minute	%ML3.121720		0	0	0	0	0	0
+MBSLV_COM4_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses sent per minute	%ML3.121728		0	0	0	0	0	0
+MBSLV_COM4_MAXEXCEPRSPAVG	LREAL	VAR_GLOBAL	Maximum exception responses sent per minute	%ML3.121736		0	0	0	0	0	0
+MBSLV_COM4_MAXRDDOREQAVG	LREAL	VAR_GLOBAL	Maximum Read Coils requests received per minute	%ML3.121744		0	0	0	0	0	0
+MBSLV_COM4_MAXRDDORSPAVG	LREAL	VAR_GLOBAL	Maximum Read Coils responses sent per minute	%ML3.121752		0	0	0	0	0	0
+MBSLV_COM4_MAXWRDOREQAVG	LREAL	VAR_GLOBAL	Maximum Write Coils requests received per minute	%ML3.121760		0	0	0	0	0	0
+MBSLV_COM4_MAXWRDORSPAVG	LREAL	VAR_GLOBAL	Maximum Write Coils responses sent per minute	%ML3.121768		0	0	0	0	0	0
+MBSLV_COM4_MAXRDDIREQAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs requests received per minute	%ML3.121776		0	0	0	0	0	0
+MBSLV_COM4_MAXRDDIRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs responses sent per minute	%ML3.121784		0	0	0	0	0	0
+MBSLV_COM4_MAXRDHRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers requests received per minute	%ML3.121792		0	0	0	0	0	0
+MBSLV_COM4_MAXRDHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers responses sent per minute	%ML3.121800		0	0	0	0	0	0
+MBSLV_COM4_MAXWRHRREQAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers requests received per minute	%ML3.121808		0	0	0	0	0	0
+MBSLV_COM4_MAXWRHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers responses sent per minute	%ML3.121816		0	0	0	0	0	0
+MBSLV_COM4_MAXRDIRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers requests received per minute	%ML3.121824		0	0	0	0	0	0
+MBSLV_COM4_MAXRDIRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers responses sent per minute	%ML3.121832		0	0	0	0	0	0
+MBSLV_COM4_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus slave	%MX3.121840.0		0	0	0	0	0	0
+MBSLV_ETH1_ONLINE	BOOL	VAR_GLOBAL	Communication port online status. TRUE if this communication port enabled with Modbus slave; FALSE if not enabled.	%MX3.121841.0		0	0	0	0	0	0
+MBSLV_ETH1_REQ	DINT	VAR_GLOBAL	Requests received	%MD3.121844		0	0	0	0	0	0
+MBSLV_ETH1_RSP	DINT	VAR_GLOBAL	Responses sent	%MD3.121848		0	0	0	0	0	0
+MBSLV_ETH1_VALIDREQ	DINT	VAR_GLOBAL	Valid requests received	%MD3.121852		0	0	0	0	0	0
+MBSLV_ETH1_INVALIDREQ	DINT	VAR_GLOBAL	Invalid requests received	%MD3.121856		0	0	0	0	0	0
+MBSLV_ETH1_SUCCRSPCNT	DINT	VAR_GLOBAL	Successful responses sent	%MD3.121860		0	0	0	0	0	0
+MBSLV_ETH1_EXCEPRSPCNT	DINT	VAR_GLOBAL	Exception responses sent	%MD3.121864		0	0	0	0	0	0
+MBSLV_ETH1_RDDO_REQ	DINT	VAR_GLOBAL	Read Coils requests received	%MD3.121868		0	0	0	0	0	0
+MBSLV_ETH1_RDDO_RSP	DINT	VAR_GLOBAL	Read Coils responses sent	%MD3.121872		0	0	0	0	0	0
+MBSLV_ETH1_WRDO_REQ	DINT	VAR_GLOBAL	Write Coils requests received	%MD3.121876		0	0	0	0	0	0
+MBSLV_ETH1_WRDO_RSP	DINT	VAR_GLOBAL	Write Coils responses sent	%MD3.121880		0	0	0	0	0	0
+MBSLV_ETH1_RDDI_REQ	DINT	VAR_GLOBAL	Read Discrete Inputs requests received	%MD3.121884		0	0	0	0	0	0
+MBSLV_ETH1_RDDI_RSP	DINT	VAR_GLOBAL	Read Discrete Inputs responses sent	%MD3.121888		0	0	0	0	0	0
+MBSLV_ETH1_RDHR_REQ	DINT	VAR_GLOBAL	Read Holding Registers requests received	%MD3.121892		0	0	0	0	0	0
+MBSLV_ETH1_RDHR_RSP	DINT	VAR_GLOBAL	Read Holding Registers responses sent	%MD3.121896		0	0	0	0	0	0
+MBSLV_ETH1_WRHR_REQ	DINT	VAR_GLOBAL	Write Holding Registers requests received	%MD3.121900		0	0	0	0	0	0
+MBSLV_ETH1_WRHR_RSP	DINT	VAR_GLOBAL	Write Holding Registers responses sent	%MD3.121904		0	0	0	0	0	0
+MBSLV_ETH1_RDIR_REQ	DINT	VAR_GLOBAL	Read Input Registers requests received	%MD3.121908		0	0	0	0	0	0
+MBSLV_ETH1_RDIR_RSP	DINT	VAR_GLOBAL	Read Input Registers responses sent	%MD3.121912		0	0	0	0	0	0
+MBSLV_ETH1_REQCNTAVG	LREAL	VAR_GLOBAL	Requests received per minute	%ML3.121920		0	0	0	0	0	0
+MBSLV_ETH1_RSPCNTAVG	LREAL	VAR_GLOBAL	Responses sent per minute	%ML3.121928		0	0	0	0	0	0
+MBSLV_ETH1_VALIDREQAVG	LREAL	VAR_GLOBAL	Valid requests received per minute	%ML3.121936		0	0	0	0	0	0
+MBSLV_ETH1_INVALIDREQAVG	LREAL	VAR_GLOBAL	Invalid requests received per minute	%ML3.121944		0	0	0	0	0	0
+MBSLV_ETH1_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses sent per minute	%ML3.121952		0	0	0	0	0	0
+MBSLV_ETH1_EXCEPRSPAVG	LREAL	VAR_GLOBAL	Exception responses sent per minute	%ML3.121960		0	0	0	0	0	0
+MBSLV_ETH1_RDDOREQAVG	LREAL	VAR_GLOBAL	Read Coils requests received per minute	%ML3.121968		0	0	0	0	0	0
+MBSLV_ETH1_RDDORSPAVG	LREAL	VAR_GLOBAL	Read Coils responses sent per minute	%ML3.121976		0	0	0	0	0	0
+MBSLV_ETH1_WRDOREQAVG	LREAL	VAR_GLOBAL	Write Coils requests received per minute	%ML3.121984		0	0	0	0	0	0
+MBSLV_ETH1_WRDORSPAVG	LREAL	VAR_GLOBAL	Write Coils responses sent per minute	%ML3.121992		0	0	0	0	0	0
+MBSLV_ETH1_RDDIREQAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs requests received per minute	%ML3.122000		0	0	0	0	0	0
+MBSLV_ETH1_RDDIRSPAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs responses sent per minute	%ML3.122008		0	0	0	0	0	0
+MBSLV_ETH1_RDHRREQAVG	LREAL	VAR_GLOBAL	Read Holding Registers requests received per minute	%ML3.122016		0	0	0	0	0	0
+MBSLV_ETH1_RDHRRSPAVG	LREAL	VAR_GLOBAL	Read Holding Registers responses sent per minute	%ML3.122024		0	0	0	0	0	0
+MBSLV_ETH1_WRHRREQAVG	LREAL	VAR_GLOBAL	Write Holding Registers requests received per minute	%ML3.122032		0	0	0	0	0	0
+MBSLV_ETH1_WRHRRSPAVG	LREAL	VAR_GLOBAL	Write Holding Registers responses sent per minute	%ML3.122040		0	0	0	0	0	0
+MBSLV_ETH1_RDIRREQAVG	LREAL	VAR_GLOBAL	Read Input Registers requests received per minute	%ML3.122048		0	0	0	0	0	0
+MBSLV_ETH1_RDIRRSPAVG	LREAL	VAR_GLOBAL	Read Input Registers responses sent per minute	%ML3.122056		0	0	0	0	0	0
+MBSLV_ETH1_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests received per minute	%ML3.122064		0	0	0	0	0	0
+MBSLV_ETH1_MAXRSPAVG	LREAL	VAR_GLOBAL	Maximum responses sent per minute	%ML3.122072		0	0	0	0	0	0
+MBSLV_ETH1_MAXVALIDREQAVG	LREAL	VAR_GLOBAL	Maximum valid requests received per minute	%ML3.122080		0	0	0	0	0	0
+MBSLV_ETH1_MAXINVLDREQAVG	LREAL	VAR_GLOBAL	Maximum invalid requests received per minute	%ML3.122088		0	0	0	0	0	0
+MBSLV_ETH1_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses sent per minute	%ML3.122096		0	0	0	0	0	0
+MBSLV_ETH1_MAXEXCEPRSPAVG	LREAL	VAR_GLOBAL	Maximum exception responses sent per minute	%ML3.122104		0	0	0	0	0	0
+MBSLV_ETH1_MAXRDDOREQAVG	LREAL	VAR_GLOBAL	Maximum Read Coils requests received per minute	%ML3.122112		0	0	0	0	0	0
+MBSLV_ETH1_MAXRDDORSPAVG	LREAL	VAR_GLOBAL	Maximum Read Coils responses sent per minute	%ML3.122120		0	0	0	0	0	0
+MBSLV_ETH1_MAXWRDOREQAVG	LREAL	VAR_GLOBAL	Maximum Write Coils requests received per minute	%ML3.122128		0	0	0	0	0	0
+MBSLV_ETH1_MAXWRDORSPAVG	LREAL	VAR_GLOBAL	Maximum Write Coils responses sent per minute	%ML3.122136		0	0	0	0	0	0
+MBSLV_ETH1_MAXRDDIREQAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs requests received per minute	%ML3.122144		0	0	0	0	0	0
+MBSLV_ETH1_MAXRDDIRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs responses sent per minute	%ML3.122152		0	0	0	0	0	0
+MBSLV_ETH1_MAXRDHRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers requests received per minute	%ML3.122160		0	0	0	0	0	0
+MBSLV_ETH1_MAXRDHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers responses sent per minute	%ML3.122168		0	0	0	0	0	0
+MBSLV_ETH1_MAXWRHRREQAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers requests received per minute	%ML3.122176		0	0	0	0	0	0
+MBSLV_ETH1_MAXWRHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers responses sent per minute	%ML3.122184		0	0	0	0	0	0
+MBSLV_ETH1_MAXRDIRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers requests received per minute	%ML3.122192		0	0	0	0	0	0
+MBSLV_ETH1_MAXRDIRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers responses sent per minute	%ML3.122200		0	0	0	0	0	0
+MBSLV_ETH1_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus slave	%MX3.122208.0		0	0	0	0	0	0
+MBSLV_ETH2_ONLINE	BOOL	VAR_GLOBAL	Communication port online status. TRUE if this communication port enabled with Modbus slave; FALSE if not enabled.	%MX3.122209.0		0	0	0	0	0	0
+MBSLV_ETH2_REQ	DINT	VAR_GLOBAL	Requests received	%MD3.122212		0	0	0	0	0	0
+MBSLV_ETH2_RSP	DINT	VAR_GLOBAL	Responses sent	%MD3.122216		0	0	0	0	0	0
+MBSLV_ETH2_VALIDREQ	DINT	VAR_GLOBAL	Valid requests received	%MD3.122220		0	0	0	0	0	0
+MBSLV_ETH2_INVALIDREQ	DINT	VAR_GLOBAL	Invalid requests received	%MD3.122224		0	0	0	0	0	0
+MBSLV_ETH2_SUCCRSPCNT	DINT	VAR_GLOBAL	Successful responses sent	%MD3.122228		0	0	0	0	0	0
+MBSLV_ETH2_EXCEPRSPCNT	DINT	VAR_GLOBAL	Exception responses sent	%MD3.122232		0	0	0	0	0	0
+MBSLV_ETH2_RDDO_REQ	DINT	VAR_GLOBAL	Read Coils requests received	%MD3.122236		0	0	0	0	0	0
+MBSLV_ETH2_RDDO_RSP	DINT	VAR_GLOBAL	Read Coils responses sent	%MD3.122240		0	0	0	0	0	0
+MBSLV_ETH2_WRDO_REQ	DINT	VAR_GLOBAL	Write Coils requests received	%MD3.122244		0	0	0	0	0	0
+MBSLV_ETH2_WRDO_RSP	DINT	VAR_GLOBAL	Write Coils responses sent	%MD3.122248		0	0	0	0	0	0
+MBSLV_ETH2_RDDI_REQ	DINT	VAR_GLOBAL	Read Discrete Inputs requests received	%MD3.122252		0	0	0	0	0	0
+MBSLV_ETH2_RDDI_RSP	DINT	VAR_GLOBAL	Read Discrete Inputs responses sent	%MD3.122256		0	0	0	0	0	0
+MBSLV_ETH2_RDHR_REQ	DINT	VAR_GLOBAL	Read Holding Registers requests received	%MD3.122260		0	0	0	0	0	0
+MBSLV_ETH2_RDHR_RSP	DINT	VAR_GLOBAL	Read Holding Registers responses sent	%MD3.122264		0	0	0	0	0	0
+MBSLV_ETH2_WRHR_REQ	DINT	VAR_GLOBAL	Write Holding Registers requests received	%MD3.122268		0	0	0	0	0	0
+MBSLV_ETH2_WRHR_RSP	DINT	VAR_GLOBAL	Write Holding Registers responses sent	%MD3.122272		0	0	0	0	0	0
+MBSLV_ETH2_RDIR_REQ	DINT	VAR_GLOBAL	Read Input Registers requests received	%MD3.122276		0	0	0	0	0	0
+MBSLV_ETH2_RDIR_RSP	DINT	VAR_GLOBAL	Read Input Registers responses sent	%MD3.122280		0	0	0	0	0	0
+MBSLV_ETH2_REQCNTAVG	LREAL	VAR_GLOBAL	Requests received per minute	%ML3.122288		0	0	0	0	0	0
+MBSLV_ETH2_RSPCNTAVG	LREAL	VAR_GLOBAL	Responses sent per minute	%ML3.122296		0	0	0	0	0	0
+MBSLV_ETH2_VALIDREQAVG	LREAL	VAR_GLOBAL	Valid requests received per minute	%ML3.122304		0	0	0	0	0	0
+MBSLV_ETH2_INVALIDREQAVG	LREAL	VAR_GLOBAL	Invalid requests received per minute	%ML3.122312		0	0	0	0	0	0
+MBSLV_ETH2_SUCCRSPAVG	LREAL	VAR_GLOBAL	Successful responses sent per minute	%ML3.122320		0	0	0	0	0	0
+MBSLV_ETH2_EXCEPRSPAVG	LREAL	VAR_GLOBAL	Exception responses sent per minute	%ML3.122328		0	0	0	0	0	0
+MBSLV_ETH2_RDDOREQAVG	LREAL	VAR_GLOBAL	Read Coils requests received per minute	%ML3.122336		0	0	0	0	0	0
+MBSLV_ETH2_RDDORSPAVG	LREAL	VAR_GLOBAL	Read Coils responses sent per minute	%ML3.122344		0	0	0	0	0	0
+MBSLV_ETH2_WRDOREQAVG	LREAL	VAR_GLOBAL	Write Coils requests received per minute	%ML3.122352		0	0	0	0	0	0
+MBSLV_ETH2_WRDORSPAVG	LREAL	VAR_GLOBAL	Write Coils responses sent per minute	%ML3.122360		0	0	0	0	0	0
+MBSLV_ETH2_RDDIREQAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs requests received per minute	%ML3.122368		0	0	0	0	0	0
+MBSLV_ETH2_RDDIRSPAVG	LREAL	VAR_GLOBAL	Read Discrete Inputs responses sent per minute	%ML3.122376		0	0	0	0	0	0
+MBSLV_ETH2_RDHRREQAVG	LREAL	VAR_GLOBAL	Read Holding Registers requests received per minute	%ML3.122384		0	0	0	0	0	0
+MBSLV_ETH2_RDHRRSPAVG	LREAL	VAR_GLOBAL	Read Holding Registers responses sent per minute	%ML3.122392		0	0	0	0	0	0
+MBSLV_ETH2_WRHRREQAVG	LREAL	VAR_GLOBAL	Write Holding Registers requests received per minute	%ML3.122400		0	0	0	0	0	0
+MBSLV_ETH2_WRHRRSPAVG	LREAL	VAR_GLOBAL	Write Holding Registers responses sent per minute	%ML3.122408		0	0	0	0	0	0
+MBSLV_ETH2_RDIRREQAVG	LREAL	VAR_GLOBAL	Read Input Registers requests received per minute	%ML3.122416		0	0	0	0	0	0
+MBSLV_ETH2_RDIRRSPAVG	LREAL	VAR_GLOBAL	Read Input Registers responses sent per minute	%ML3.122424		0	0	0	0	0	0
+MBSLV_ETH2_MAXREQAVG	LREAL	VAR_GLOBAL	Maximum requests received per minute	%ML3.122432		0	0	0	0	0	0
+MBSLV_ETH2_MAXRSPAVG	LREAL	VAR_GLOBAL	Maximum responses sent per minute	%ML3.122440		0	0	0	0	0	0
+MBSLV_ETH2_MAXVALIDREQAVG	LREAL	VAR_GLOBAL	Maximum valid requests received per minute	%ML3.122448		0	0	0	0	0	0
+MBSLV_ETH2_MAXINVLDREQAVG	LREAL	VAR_GLOBAL	Maximum invalid requests received per minute	%ML3.122456		0	0	0	0	0	0
+MBSLV_ETH2_MAXSUCCRSPAVG	LREAL	VAR_GLOBAL	Maximum successful responses sent per minute	%ML3.122464		0	0	0	0	0	0
+MBSLV_ETH2_MAXEXCEPRSPAVG	LREAL	VAR_GLOBAL	Maximum exception responses sent per minute	%ML3.122472		0	0	0	0	0	0
+MBSLV_ETH2_MAXRDDOREQAVG	LREAL	VAR_GLOBAL	Maximum Read Coils requests received per minute	%ML3.122480		0	0	0	0	0	0
+MBSLV_ETH2_MAXRDDORSPAVG	LREAL	VAR_GLOBAL	Maximum Read Coils responses sent per minute	%ML3.122488		0	0	0	0	0	0
+MBSLV_ETH2_MAXWRDOREQAVG	LREAL	VAR_GLOBAL	Maximum Write Coils requests received per minute	%ML3.122496		0	0	0	0	0	0
+MBSLV_ETH2_MAXWRDORSPAVG	LREAL	VAR_GLOBAL	Maximum Write Coils responses sent per minute	%ML3.122504		0	0	0	0	0	0
+MBSLV_ETH2_MAXRDDIREQAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs requests received per minute	%ML3.122512		0	0	0	0	0	0
+MBSLV_ETH2_MAXRDDIRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Discrete Inputs responses sent per minute	%ML3.122520		0	0	0	0	0	0
+MBSLV_ETH2_MAXRDHRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers requests received per minute	%ML3.122528		0	0	0	0	0	0
+MBSLV_ETH2_MAXRDHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Holding Registers responses sent per minute	%ML3.122536		0	0	0	0	0	0
+MBSLV_ETH2_MAXWRHRREQAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers requests received per minute	%ML3.122544		0	0	0	0	0	0
+MBSLV_ETH2_MAXWRHRRSPAVG	LREAL	VAR_GLOBAL	Maximum Write Holding Registers responses sent per minute	%ML3.122552		0	0	0	0	0	0
+MBSLV_ETH2_MAXRDIRREQAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers requests received per minute	%ML3.122560		0	0	0	0	0	0
+MBSLV_ETH2_MAXRDIRRSPAVG	LREAL	VAR_GLOBAL	Maximum Read Input Registers responses sent per minute	%ML3.122568		0	0	0	0	0	0
+MBSLV_ETH2_RESETSTATS	BOOL	VAR_GLOBAL	Reset statistics of Modbus slave	%MX3.122576.0		0	0	0	0	0	0
+CPM_FPGAERR	BOOL	VAR_GLOBAL	FPGA error	%MX3.140006.0		0	0	0	0	0	0
+CPM_MRAMERR	BOOL	VAR_GLOBAL	Non-volatile memory (MRAM) error	%MX3.140005.0		0	0	0	0	0	0
+CPM_FLASHERR_1STBANK	BOOL	VAR_GLOBAL	First bank of flash memory error	%MX3.140004.0		0	0	0	0	0	0
+CPM_FACTORYDATAERR	BOOL	VAR_GLOBAL	Factory data error	%MX3.140003.0		0	0	0	0	0	0
+CPM_MEMERR_MTPBIT	BOOL	VAR_GLOBAL	Uncorrectable multiple bits error in memory	%MX3.140002.0		0	0	0	0	0	0
+CPM_MEMERR_SGLBIT	BOOL	VAR_GLOBAL	Uncorrectable single bit error in memory	%MX3.140001.0		0	0	0	0	0	0
+CPM_MEMERR_SGLBITCR	BOOL	VAR_GLOBAL	Correctable single bit error in memory	%MX3.140000.0		0	0	0	0	0	0
+WLIF_SUBNETID	UINT	VAR_GLOBAL	ISA100 network subnet ID	%MW3.150000		0	0	0	0	0	0
+WLIF_OTAPROVISION	USINT	VAR_GLOBAL	Over the Air Provisioning	%MB3.150002		0	0	0	0	0	0
+WLIF_MAXROUTDEPTH	USINT	VAR_GLOBAL	Maximum Route Depth	%MB3.150003		0	0	0	0	0	0
+WLIF_ROUTPOLICY	USINT	VAR_GLOBAL	Default Routing Policy	%MB3.150004		0	0	0	0	0	0
+WLIF_JOINPOLICY	USINT	VAR_GLOBAL	Default Join Policy	%MB3.150005		0	0	0	0	0	0
+WLIF_LNKQUALTHR	USINT	VAR_GLOBAL	Link Quality Threshold	%MB3.150006		0	0	0	0	0	0
+WLIF_LNKSTRENGTHTHR	INT	VAR_GLOBAL	Link Strength Threshold	%MW3.150008		0	0	0	0	0	0
+WLIF_ISATXCNT	UDINT	VAR_GLOBAL	Transmit Count	%MD3.150012		0	0	0	0	0	0
+WLIF_ISARXCNT	UDINT	VAR_GLOBAL	Recieve Count	%MD3.150016		0	0	0	0	0	0
+WLIF_ISATMTCNT	UDINT	VAR_GLOBAL	Timout Count	%MD3.150020		0	0	0	0	0	0
+WLIF_ISATXRATE	REAL	VAR_GLOBAL	Transmit Rate	%MD3.150024		0	0	0	0	0	0
+WLIF_ISARXRATE	REAL	VAR_GLOBAL	Recieve Rate	%MD3.150028		0	0	0	0	0	0
+WLIF_ISATMTRATE	REAL	VAR_GLOBAL	Timout Rate	%MD3.150032		0	0	0	0	0	0
+WLIF_ISATXRATEMAX	REAL	VAR_GLOBAL	Transmit Rate Max	%MD3.150036		0	0	0	0	0	0
+WLIF_ISARXRATEMAX	REAL	VAR_GLOBAL	Recieve Rate Max	%MD3.150040		0	0	0	0	0	0
+WLIF_ISATMTRATEMAX	REAL	VAR_GLOBAL	Timeout Rate Max	%MD3.150044		0	0	0	0	0	0
+WLIF_ISADEVTOT	UINT	VAR_GLOBAL	ISA100 Device Total	%MW3.150048		0	0	0	0	0	0
+WLIF_ISADEVONLINE	UINT	VAR_GLOBAL	ISA100 Device Online	%MW3.150050		0	0	0	0	0	0
+WLIF_WHARTSUBNETID	UINT	VAR_GLOBAL	Wireless HART Network ID	%MW3.150052		0	0	0	0	0	0
+WLIF_WHARTTXCNT	UDINT	VAR_GLOBAL	Wireless HART Transmit Count	%MD3.150056		0	0	0	0	0	0
+WLIF_WHARTRXCNT	UDINT	VAR_GLOBAL	Wireless HART Receive Count	%MD3.150060		0	0	0	0	0	0
+WLIF_WHARTTMTCNT	UDINT	VAR_GLOBAL	Wireless HART Timeout Count	%MD3.150064		0	0	0	0	0	0
+WLIF_WHARTTXRATE	REAL	VAR_GLOBAL	Wireless HART Transmit Rate	%MD3.150068		0	0	0	0	0	0
+WLIF_WHARTRXRATE	REAL	VAR_GLOBAL	Wireless HART Receive Rate	%MD3.150072		0	0	0	0	0	0
+WLIF_WHARTTMTRATE	REAL	VAR_GLOBAL	Wireless HART Timeout Rate	%MD3.150076		0	0	0	0	0	0
+WLIF_WHARTTXRATEMAX	REAL	VAR_GLOBAL	Wireless HART Transmit Rate Max	%MD3.150080		0	0	0	0	0	0
+WLIF_WHARTARXRATEMAX	REAL	VAR_GLOBAL	Wireless HART Receive Rate Max	%MD3.150084		0	0	0	0	0	0
+WLIF_WHARTATMTRATEMAX	REAL	VAR_GLOBAL	Wireless HART imeout Rate Max	%MD3.150088		0	0	0	0	0	0
+WLIF_WHARTDEVTOT	UINT	VAR_GLOBAL	Wireless HART Device Total	%MW3.150092		0	0	0	0	0	0
+WLIF_WHARTDEVONLINE	UINT	VAR_GLOBAL	Wireless HART Device Online	%MW3.150094		0	0	0	0	0	0
+DNPSLV_ETH1_M2_ONLINE	UDINT	VAR_GLOBAL	Connection count	%MD3.108864		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OFFLINE	UDINT	VAR_GLOBAL	Disconnection count	%MD3.108868		0	0	0	0	0	0
+DNPSLV_ETH1_M2_ASDUTX	UDINT	VAR_GLOBAL	ASDU sent	%MD3.108872		0	0	0	0	0	0
+DNPSLV_ETH1_M2_ASDURX	UDINT	VAR_GLOBAL	ASDU received	%MD3.108876		0	0	0	0	0	0
+DNPSLV_ETH1_M2_EVENTOVERFL	UDINT	VAR_GLOBAL	Event overflow	%MD3.108880		0	0	0	0	0	0
+DNPSLV_ETH1_M2_EVENTTX	UDINT	VAR_GLOBAL	Event sent	%MD3.108884		0	0	0	0	0	0
+DNPSLV_ETH1_M2_EVENTCNFM	UDINT	VAR_GLOBAL	Event confirmation	%MD3.108888		0	0	0	0	0	0
+DNPSLV_ETH1_M2_REQTMT	UDINT	VAR_GLOBAL	Request timeouts	%MD3.108892		0	0	0	0	0	0
+DNPSLV_ETH1_M2_REQFAIL	UDINT	VAR_GLOBAL	Request failures	%MD3.108896		0	0	0	0	0	0
+DNPSLV_ETH1_M2_ASDUTXAVG	LREAL	VAR_GLOBAL	ASDU sent per minute	%ML3.108904		0	0	0	0	0	0
+DNPSLV_ETH1_M2_ASDURXAVG	LREAL	VAR_GLOBAL	ASDU received per minute	%ML3.108912		0	0	0	0	0	0
+DNPSLV_ETH1_M2_EVENTTXAVG	LREAL	VAR_GLOBAL	Event sent per minute	%ML3.108920		0	0	0	0	0	0
+DNPSLV_ETH1_M2_EVENTCNFMAVG	LREAL	VAR_GLOBAL	Event confirmation per minute	%ML3.108928		0	0	0	0	0	0
+DNPSLV_ETH1_M2_REQTMTAVG	LREAL	VAR_GLOBAL	Request timeouts per minute	%ML3.108936		0	0	0	0	0	0
+DNPSLV_ETH1_M2_REQFAILAVG	LREAL	VAR_GLOBAL	Request failures per minute	%ML3.108944		0	0	0	0	0	0
+DNPSLV_ETH1_M2_ONLINETIME	UDINT	VAR_GLOBAL	"Last connection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.108952		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OFFLINETIME	UDINT	VAR_GLOBAL	"Last disconnection time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.108956		0	0	0	0	0	0
+DNPSLV_ETH1_M2_EVENTOVFLTIME	UDINT	VAR_GLOBAL	"Last event overflow time, seconds since 00:00:00 1-Jan-1970 (UTC)"	%MD3.108960		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ2_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Input events	%MD3.108964		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ4_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Double-Bit Binary events	%MD3.108968		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ11_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output events	%MD3.108972		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ13_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Binary Output Command events	%MD3.108976		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ22_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Counter events	%MD3.108980		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ23_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Frozen Counter events	%MD3.108984		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ32_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Input events	%MD3.108988		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ42_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output events	%MD3.108992		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ43_EVENTCNT	UDINT	VAR_GLOBAL	Unsent Analog Output Command events	%MD3.108996		0	0	0	0	0	0
+DNPSLV_ETH1_M2_RESETSTAT	BOOL	VAR_GLOBAL	Reset statistics of DNP3 slave	%MX3.109004.0		0	0	0	0	0	0
+DNPSLV_ETH1_M2_OBJ111_EVENTCNT	UDINT	VAR_GLOBAL	Unsent String events	%MD3.109000		0	0	0	0	0	0
+MQTT_ConnectionReturnCode	INT	VAR_GLOBAL	0:Success;-1:Failure;-2:Persistence error;-3:Disconnected;-4:MAX Message Inflight;-5:Bad UTF8 String;-6:NULL Parameter;-7:Topic Name Truncated;-8:Bad Structure;-9:Bad QoS Level;-10:No More Message ID;-11:Operation Incomplete;-12:MAX Buffered Messages;-13:SSL Not Supported;-14:Bad Protocol;-15:Bad MQTT Option;-16:Wrong MQTT Version;-17:0 Length Will Topic;255:No Attempt;	%MW3.160000		0	0	0	0	0	0
+MQTT_PubQoS	UINT	VAR_GLOBAL	Publish QoS.	%MW3.160002		0	0	0	0	0	0
+MQTT_PublishTotalCount	UDINT	VAR_GLOBAL	Publish total count.	%MD3.160004		0	0	0	0	0	0
+MQTT_PublishFailedCount	UDINT	VAR_GLOBAL	Publish failed count.	%MD3.160008		0	0	0	0	0	0
+MQTT_CurrentBroker	STRING	VAR_GLOBAL	Connecting Broker	%MB3.160012		0	0	0	0	0	0
+CNTLR_RINGSTATUS	USINT	VAR_GLOBAL	"Ring Network Status. 0: Normal, 1: Ring Fault, 2: Ring Manager Unavailable. On a redundant controller, Ring Manager only runs on slot 2 CPM, hence Ring Manager can become unavailable when the slot 1 CPM is the primary controller and the slot 2 CPM is rebooting, powered off, removed or redundancy is disabled, etc."	%MB3.102137		0	0	0	0	0	0
+CNTLR_RINGFAULT_EDGENODE1	STRING	VAR_GLOBAL	Ring Fault Edge Node 1	%MB3.102138		0	0	0	0	0	0
+CNTLR_RINGFAULT_EDGENODE2	STRING	VAR_GLOBAL	Ring Fault Edge Node 2	%MB3.102271		0	0	0	0	0	0
+IEC104_ResetProcess	BOOL	VAR_GLOBAL	Reset IEC60870 Process	%MX3.171881.0		0	0	0	0	0	0
+IECSLV_STATUS	BOOL	VAR_GLOBAL	Status of IEC 104 Slave	%MX3.170000.0		0	0	0	0	0	0
+IECSLV_UPTIME	UDINT	VAR_GLOBAL	Seconds since the IEC 104 is running	%MD3.170004		0	0	0	0	0	0
+IECSLV_ONLINECOUNT	UDINT	VAR_GLOBAL	Number of Masters currently connected	%MD3.170008		0	0	0	0	0	0
+IECSLV_CONNECTIONAT	STRING	VAR_GLOBAL	Time the latest Master connection was established	%MB3.170012		0	0	0	0	0	0
+IECSLV_SYNC_STATUS	BOOL	VAR_GLOBAL	Indiactes if the server time is synchronized	%MX3.170145.0		0	0	0	0	0	0
+IECSLV_CEDAT	STRING	VAR_GLOBAL	Time when the last time sync command was received	%MB3.170146		0	0	0	0	0	0
+IECSLV_ASDUSENTCOUNT	UDINT	VAR_GLOBAL	Total number of ASDU sent since the last startup	%MD3.170280		0	0	0	0	0	0
+IECSLV_ASDURECEIVECOUNT	UDINT	VAR_GLOBAL	Total number of ASDU received since the last startup	%MD3.170284		0	0	0	0	0	0
+IECSLV_LASTCOMMANDRECEIVED	STRING	VAR_GLOBAL	Time when the last Command was received	%MB3.170288		0	0	0	0	0	0
+IECSLV_M1_CONNSTATUS	BOOL	VAR_GLOBAL	Status of IEC 104 Slave	%MX3.170421.0		0	0	0	0	0	0
+IECSLV_M1_CONNECTIONTIME	STRING	VAR_GLOBAL	Time when the master established connection	%MB3.170422		0	0	0	0	0	0
+IECSLV_M1_ASDUSENTCT	UDINT	VAR_GLOBAL	Total number of ASDU sent since the last startup	%MD3.170556		0	0	0	0	0	0
+IECSLV_M1_ASDURECNT	UDINT	VAR_GLOBAL	Total number of ASDU received since the last startup	%MD3.170560		0	0	0	0	0	0
+IECSLV_M1_UNSPTEDOBJECTACCESS	UDINT	VAR_GLOBAL	Number of access to points not configured	%MD3.170564		0	0	0	0	0	0
+IECSLV_M1_UNSPTEDASDURXEDCNT	UDINT	VAR_GLOBAL	Count of total unsupported ASDU requests	%MD3.170568		0	0	0	0	0	0
+IECSLV_M1_SBOTIMEOUTCOUNT	UDINT	VAR_GLOBAL	Total number of Select Command time outs	%MD3.170572		0	0	0	0	0	0
+IECSLV_M1_TOTALCOMMANDSRXED	UDINT	VAR_GLOBAL	Total number of commands received	%MD3.170576		0	0	0	0	0	0
+IECSLV_M1_LASTCOMMANDRXED	STRING	VAR_GLOBAL	Time when the last Command was received	%MB3.170580		0	0	0	0	0	0
+IECSLV_M2_CONNSTATUS	BOOL	VAR_GLOBAL	Status of IEC 104 Slave	%MX3.170713.0		0	0	0	0	0	0
+IECSLV_M2_CONNECTIONTIME	STRING	VAR_GLOBAL	Time when the master established connection	%MB3.170714		0	0	0	0	0	0
+IECSLV_M2_ASDUSENTCT	UDINT	VAR_GLOBAL	Total number of ASDU sent since the last startup	%MD3.170848		0	0	0	0	0	0
+IECSLV_M2_ASDURECNT	UDINT	VAR_GLOBAL	Total number of ASDU received since the last startup	%MD3.170852		0	0	0	0	0	0
+IECSLV_M2_UNSPTEDOBJECTACCESS	UDINT	VAR_GLOBAL	Number of access to points not configured	%MD3.170856		0	0	0	0	0	0
+IECSLV_M2_UNSPTEDASDURXEDCNT	UDINT	VAR_GLOBAL	Count of total unsupported ASDU requests	%MD3.170860		0	0	0	0	0	0
+IECSLV_M2_SBOTIMEOUTCOUNT	UDINT	VAR_GLOBAL	Total number of Select Command time outs	%MD3.170864		0	0	0	0	0	0
+IECSLV_M2_TOTALCOMMANDSRXED	UDINT	VAR_GLOBAL	Total number of commands received	%MD3.170868		0	0	0	0	0	0
+IECSLV_M2_LASTCOMMANDRXED	STRING	VAR_GLOBAL	Time when the last Command was received	%MB3.170872		0	0	0	0	0	0
+IECSLV_M3_CONNSTATUS	BOOL	VAR_GLOBAL	Status of IEC 104 Slave	%MX3.171005.0		0	0	0	0	0	0
+IECSLV_M3_CONNECTIONTIME	STRING	VAR_GLOBAL	Time when the master established connection	%MB3.171006		0	0	0	0	0	0
+IECSLV_M3_ASDUSENTCT	UDINT	VAR_GLOBAL	Total number of ASDU sent since the last startup	%MD3.171140		0	0	0	0	0	0
+IECSLV_M3_ASDURECNT	UDINT	VAR_GLOBAL	Total number of ASDU received since the last startup	%MD3.171144		0	0	0	0	0	0
+IECSLV_M3_UNSPTEDOBJECTACCESS	UDINT	VAR_GLOBAL	Number of access to points not configured	%MD3.171148		0	0	0	0	0	0
+IECSLV_M3_UNSPTEDASDURXEDCNT	UDINT	VAR_GLOBAL	Count of total unsupported ASDU requests	%MD3.171152		0	0	0	0	0	0
+IECSLV_M3_SBOTIMEOUTCOUNT	UDINT	VAR_GLOBAL	Total number of Select Command time outs	%MD3.171156		0	0	0	0	0	0
+IECSLV_M3_TOTALCOMMANDSRXED	UDINT	VAR_GLOBAL	Total number of commands received	%MD3.171160		0	0	0	0	0	0
+IECSLV_M3_LASTCOMMANDRXED	STRING	VAR_GLOBAL	Time when the last Command was received	%MB3.171164		0	0	0	0	0	0
+IECSLV_M4_CONNSTATUS	BOOL	VAR_GLOBAL	Status of IEC 104 Slave	%MX3.171297.0		0	0	0	0	0	0
+IECSLV_M4_CONNECTIONTIME	STRING	VAR_GLOBAL	Time when the master established connection	%MB3.171298		0	0	0	0	0	0
+IECSLV_M4_ASDUSENTCT	UDINT	VAR_GLOBAL	Total number of ASDU sent since the last startup	%MD3.171432		0	0	0	0	0	0
+IECSLV_M4_ASDURECNT	UDINT	VAR_GLOBAL	Total number of ASDU received since the last startup	%MD3.171436		0	0	0	0	0	0
+IECSLV_M4_UNSPTEDOBJECTACCESS	UDINT	VAR_GLOBAL	Number of access to points not configured	%MD3.171440		0	0	0	0	0	0
+IECSLV_M4_UNSPTEDASDURXEDCNT	UDINT	VAR_GLOBAL	Count of total unsupported ASDU requests	%MD3.171444		0	0	0	0	0	0
+IECSLV_M4_SBOTIMEOUTCOUNT	UDINT	VAR_GLOBAL	Total number of Select Command time outs	%MD3.171448		0	0	0	0	0	0
+IECSLV_M4_TOTALCOMMANDSRXED	UDINT	VAR_GLOBAL	Total number of commands received	%MD3.171452		0	0	0	0	0	0
+IECSLV_M4_LASTCOMMANDRXED	STRING	VAR_GLOBAL	Time when the last Command was received	%MB3.171456		0	0	0	0	0	0
+IECSLV_M5_CONNSTATUS	BOOL	VAR_GLOBAL	Status of IEC 104 Slave	%MX3.171589.0		0	0	0	0	0	0
+IECSLV_M5_CONNECTIONTIME	STRING	VAR_GLOBAL	Time when the master established connection	%MB3.171590		0	0	0	0	0	0
+IECSLV_M5_ASDUSENTCT	UDINT	VAR_GLOBAL	Total number of ASDU sent since the last startup	%MD3.171724		0	0	0	0	0	0
+IECSLV_M5_ASDURECNT	UDINT	VAR_GLOBAL	Total number of ASDU received since the last startup	%MD3.171728		0	0	0	0	0	0
+IECSLV_M5_UNSPTEDOBJECTACCESS	UDINT	VAR_GLOBAL	Number of access to points not configured	%MD3.171732		0	0	0	0	0	0
+IECSLV_M5_UNSPTEDASDURXEDCNT	UDINT	VAR_GLOBAL	Count of total unsupported ASDU requests	%MD3.171736		0	0	0	0	0	0
+IECSLV_M5_SBOTIMEOUTCOUNT	UDINT	VAR_GLOBAL	Total number of Select Command time outs	%MD3.171740		0	0	0	0	0	0
+IECSLV_M5_TOTALCOMMANDSRXED	UDINT	VAR_GLOBAL	Total number of commands received	%MD3.171744		0	0	0	0	0	0
+IECSLV_M5_LASTCOMMANDRXED	STRING	VAR_GLOBAL	Time when the last Command was received	%MB3.171748		0	0	0	0	0	0
+PLC_TASK_1	Task_Info_eCLR	VAR_GLOBAL		%MB1.5000		0	0	0	0	0	0
+PLC_TASK_2	Task_Info_eCLR	VAR_GLOBAL		%MB1.5128		0	0	0	0	0	0
+PLC_TASK_3	Task_Info_eCLR	VAR_GLOBAL		%MB1.5256		0	0	0	0	0	0
+PLC_TASK_4	Task_Info_eCLR	VAR_GLOBAL		%MB1.5384		0	0	0	0	0	0
+PLC_TASK_5	Task_Info_eCLR	VAR_GLOBAL		%MB1.5512		0	0	0	0	0	0
+PLC_TASK_6	Task_Info_eCLR	VAR_GLOBAL		%MB1.5640		0	0	0	0	0	0
+PLC_TASK_7	Task_Info_eCLR	VAR_GLOBAL		%MB1.5768		0	0	0	0	0	0
+PLC_TASK_8	Task_Info_eCLR	VAR_GLOBAL		%MB1.5896		0	0	0	0	0	0
+PLC_TASK_9	Task_Info_eCLR	VAR_GLOBAL		%MB1.6024		0	0	0	0	0	0
+PLC_TASK_10	Task_Info_eCLR	VAR_GLOBAL		%MB1.6152		0	0	0	0	0	0
+PLC_TASK_11	Task_Info_eCLR	VAR_GLOBAL		%MB1.6280		0	0	0	0	0	0
+PLC_TASK_12	Task_Info_eCLR	VAR_GLOBAL		%MB1.6408		0	0	0	0	0	0
+PLC_TASK_13	Task_Info_eCLR	VAR_GLOBAL		%MB1.6536		0	0	0	0	0	0
+PLC_TASK_14	Task_Info_eCLR	VAR_GLOBAL		%MB1.6664		0	0	0	0	0	0
+PLC_TASK_15	Task_Info_eCLR	VAR_GLOBAL		%MB1.6792		0	0	0	0	0	0
+PLC_TASK_16	Task_Info_eCLR	VAR_GLOBAL		%MB1.6920		0	0	0	0	0	0
